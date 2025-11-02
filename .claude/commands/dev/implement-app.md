@@ -24,9 +24,9 @@ This command requires design outputs from `/design-app`:
 - `.claude/outputs/design/projects/[project-name]/[timestamp]/MANIFEST.md` - Requirements registry and roadmap
 - Agent outputs in `.claude/outputs/design/agents/`:
   - `ui-designer/` - Visual specifications, wireframes, component hierarchy
-  - `shadcn-expert/` - Component selections and implementation patterns
-  - `reddit-api-expert/` - API integration specifications
-  - `chatgpt-expert/` - AI service integration patterns
+  - `salt-ds-expert/` - Component selections and implementation patterns
+  - `github-api-expert/` - API integration specifications
+  - `npm-api-expert/` - API service integration patterns
   - `playwright-expert/` - Testing strategies (for reference)
 
 ## Arguments
@@ -95,32 +95,32 @@ interface DesignSpecification {
 
 - `MANIFEST.md` - Complete project scope, requirements, and 4-week roadmap
 - `ui-designer/design-specification.md` - Visual structure, wireframes, component hierarchy
-- `shadcn-expert/component-implementation.md` - Component selections and implementation patterns
-- `reddit-api-expert/reddit-integration.md` - API service architecture and caching
-- `chatgpt-expert/ai-integration.md` - Sentiment analysis and AI service integration
+- `salt-ds-expert/component-implementation.md` - Component selections and implementation patterns
+- `github-api-expert/github-integration.md` - API service architecture and caching
+- `npm-api-expert/npm-integration.md` - npm API integration and package statistics
 - `playwright-expert/test-specifications.md` - Testing strategies (for reference)
 
 **1.2. API Integration Planning**
 
-For Reddit Sentiment Monitor app, focus on:
+For Dashboard Builder app, focus on:
 
-- **Reddit API**: Posts and comments from r/ClaudeAI, r/ClaudeCode, r/Anthropic
-- **OpenAI API**: Sentiment analysis with GPT-3.5-turbo-0125
-- **Caching Strategy**: Reddit data caching, sentiment cache with appropriate TTL
+- **GitHub API**: Repository metrics (stars, issues, PRs, contributors, releases)
+- **npm API**: Package statistics (downloads, versions, health scores)
+- **Caching Strategy**: GitHub data caching (1hr), npm data caching (24hr for static data)
 - **Type Safety**: Create interfaces for all API responses
 
 **Example from Design Specifications**:
 
 ```typescript
-// Based on reddit-api-expert outputs
-interface RedditPostData {
-  id: string;
-  subreddit: string;
-  title: string;
-  body: string;
-  author: string;
-  score: number;
-  created_utc: number;
+// Based on github-api-expert outputs
+interface GitHubRepoData {
+  id: number;
+  owner: string;
+  name: string;
+  stars: number;
+  forks: number;
+  open_issues: number;
+  updated_at: string;
 }
 ```
 
@@ -150,19 +150,19 @@ Establish core structure before implementation:
 
 Implement core services based on design specifications before UI:
 
-**Reddit API Service**
+**GitHub API Service**
 
-- Implement service class from `reddit-api-expert` specifications
-- Add post and comment extraction with proper error handling
-- Implement OAuth authentication and rate limiting
-- Add caching mechanism per design specifications
+- Implement service class from `github-api-expert` specifications
+- Add repository metrics extraction with proper error handling
+- Implement rate limiting and authentication
+- Add caching mechanism per design specifications (1hr for metrics)
 
-**OpenAI Sentiment Analysis Service**
+**npm API Service**
 
-- Implement service class from `chatgpt-expert` specifications
-- Add GPT-3.5-turbo integration with 8-comment batching
-- Implement 7-day sentiment caching
-- Add cost optimization and rate limiting
+- Implement service class from `npm-api-expert` specifications
+- Add package statistics and download trends fetching
+- Implement rate limiting and error handling
+- Add caching for package data (24hr for static data)
 
 **Data Models and Validation**
 
@@ -184,26 +184,26 @@ Implement UI components based on design specifications:
 - Drill-down detail views for daily posts
 - CSV export functionality
 
-**shadcn/ui Component Integration**
+**Salt DS Component Integration**
 
-- Install and configure components from `shadcn-expert` specifications
-- Implement form components (Input, Button, Select) with proper validation
-- Add Card, Badge, and Progress components for widget display
+- Install and configure components from `salt-ds-expert` specifications
+- Implement form components (Input, Button, Dropdown) with proper validation
+- Add Card, Badge, and Metric components for widget display
 - Setup responsive layout with proper breakpoints
 
 **Data Visualization Pipeline**
 
-- Connect UI to Reddit API service
-- Implement sentiment analysis integration
-- Create interactive charts with live updates
-- Add drill-down functionality to daily details
+- Connect UI to GitHub and npm API services
+- Implement widget data fetching and caching
+- Create interactive charts with Recharts
+- Add widget resize and drag-drop functionality
 
 **Key Implementation Principles**:
 
 - Follow design specifications exactly
-- Use established patterns from shadcn-expert outputs
+- Use established patterns from salt-ds-expert outputs
 - Implement responsive design per ui-designer breakpoints
-- Focus on functional App over perfect polish
+- Focus on functional dashboard over perfect polish
 
 ### Phase 4: Feature Integration and Polish (15-20 minutes)
 
@@ -213,19 +213,20 @@ Connect all components into working application:
 
 **Complete User Flow Implementation**
 
-1. Time range selection (7/30/90 days)
-2. Reddit API data fetching with progress indicators
-3. Sentiment analysis processing of posts/comments
-4. Interactive chart rendering with subreddit filtering
-5. CSV export generation
+1. Dashboard creation and selection
+2. Widget catalog browsing and addition
+3. Widget configuration (repository/package selection)
+4. Data fetching from GitHub/npm APIs with progress indicators
+5. Interactive widget rendering with drag-drop and resize
+6. Dashboard layout persistence
 
 **Error Handling and Edge Cases**
 
-- Deleted/removed posts handling
-- Subreddit access issues
-- API rate limit management
+- Invalid repository/package names handling
+- API rate limit management (GitHub: 5000/hr, npm: varies)
 - Network error recovery
-- Invalid URL input validation
+- Widget configuration validation
+- Dashboard layout corruption recovery
 
 **Performance Optimizations**
 
@@ -256,9 +257,9 @@ Prepare application for deployment:
 
 Implement essential tests for key workflows:
 
-- Reddit API integration smoke tests
-- Sentiment analysis service validation
-- Widget generation end-to-end test
+- GitHub and npm API integration smoke tests
+- Widget data fetching validation
+- Dashboard creation and widget addition end-to-end test
 - Error handling verification
 
 **Documentation and Handoff**
@@ -294,9 +295,9 @@ The implementation strategy prioritizes rapid delivery with design specification
 
 - `MANIFEST.md`: Complete requirements and 4-week roadmap
 - `ui-designer outputs`: Visual specifications and component hierarchy
-- `shadcn-expert outputs`: Component selections and implementation patterns
-- `reddit-api-expert outputs`: Service architecture and caching strategies
-- `chatgpt-expert outputs`: AI integration and cost optimization
+- `salt-ds-expert outputs`: Component selections and implementation patterns
+- `github-api-expert outputs`: Service architecture and caching strategies
+- `npm-api-expert outputs`: npm API integration and package metrics
 - `playwright-expert outputs`: Testing strategies for future enhancement
 
 ### Design Integration Points
@@ -306,26 +307,26 @@ The implementation strategy prioritizes rapid delivery with design specification
 - Read MANIFEST.md to understand complete project scope and 4-week roadmap
 - Extract technology stack and dependencies from design specifications
 - Assess existing project state if app-folder already contains code
-- Setup Next.js project with TypeScript and shadcn/ui per specifications
+- Setup Next.js project with TypeScript and Salt DS per specifications
 
 **Phase 2 - Service Implementation:**
 
-- Follow reddit-api-expert specifications for Reddit API integration
-- Implement chatgpt-expert patterns for OpenAI sentiment analysis
+- Follow github-api-expert specifications for GitHub API integration
+- Implement npm-api-expert patterns for npm Registry API integration
 - Create caching strategies per API expert recommendations
 - Build proper TypeScript interfaces and error handling
 
 **Phase 3 - UI Implementation:**
 
 - Follow ui-designer specifications for visual design and layout
-- Implement shadcn-expert component selections and patterns
+- Implement salt-ds-expert component selections and patterns
 - Match exact color scheme and responsive breakpoints
 - Create component hierarchy as specified in design outputs
 
 **Phase 4 - Feature Integration:**
 
 - Connect UI components to API services
-- Implement complete user workflow from URL input to widget export
+- Implement complete user workflow from dashboard creation to widget management
 - Add error handling and edge case management
 - Optimize performance per design specifications
 
@@ -347,19 +348,19 @@ The command automatically determines project setup requirements and implementati
 
 ### Technical Implementation Success
 
-✅ Next.js app initialized with TypeScript and shadcn/ui
-✅ Reddit API service properly integrated with OAuth
-✅ OpenAI sentiment analysis service working with cost optimization
+✅ Next.js app initialized with TypeScript and Salt DS
+✅ GitHub API service properly integrated
+✅ npm API service working with proper caching
 ✅ Caching implemented per design specifications
 ✅ UI components match design specifications exactly
 
 ### Functional Success
 
-✅ Complete user workflow: time selection → data fetch → visualization → export
-✅ Error handling for deleted posts, subreddit access, rate limits
+✅ Complete user workflow: dashboard creation → widget addition → configuration → visualization
+✅ Error handling for invalid repos/packages, API rate limits
 ✅ Responsive design working across all specified breakpoints
-✅ Interactive charts with drill-down functionality
-✅ CSV export working correctly
+✅ Interactive widgets with drag-drop and resize
+✅ Dashboard layout persistence working correctly
 
 ### Production Readiness
 
@@ -375,8 +376,8 @@ The command automatically determines project setup requirements and implementati
 
 - **Must** read ALL design outputs before starting implementation
 - **Must** follow UI designer visual specifications and component hierarchy
-- **Must** use shadcn-expert component selections and patterns
-- **Must** implement API services per reddit-api-expert and chatgpt-expert specs
+- **Must** use salt-ds-expert component selections and patterns
+- **Must** implement API services per github-api-expert and npm-api-expert specs
 - **Should** reference playwright-expert for testing strategies
 
 ### Implementation Phase (Practical Approach)
@@ -391,14 +392,14 @@ The command automatically determines project setup requirements and implementati
 - Verify each feature works as designed before moving to next
 - Ensure API integrations handle edge cases properly
 - Validate responsive design matches ui-designer breakpoints
-- Confirm cost projections align with chatgpt-expert estimates
+- Confirm caching strategies align with API expert specifications
 
 ### User Confirmation Points
 
-- Show working Reddit data fetching from multiple subreddits
-- Demonstrate sentiment analysis and aggregation
-- Present interactive charts with filtering options
-- Verify CSV export functionality
+- Show working GitHub and npm data fetching
+- Demonstrate widget configuration and data display
+- Present interactive dashboard with drag-drop and resize
+- Verify dashboard layout persistence
 
 ## Implementation Patterns
 
@@ -408,14 +409,14 @@ Translate design outputs directly into implementation:
 
 **Service Implementation Strategy**:
 
-1. Read `reddit-api-expert` outputs for API service architecture
-2. Read `chatgpt-expert` outputs for AI integration patterns
+1. Read `github-api-expert` outputs for API service architecture
+2. Read `npm-api-expert` outputs for npm integration patterns
 3. Create services that implement EXACT specifications from design
 
 **Component Implementation Strategy**:
 
 - **Visual Structure** → Follow ui-designer wireframes exactly
-- **Component Library** → Use shadcn-expert selections and patterns
+- **Component Library** → Use salt-ds-expert selections and patterns
 - **Data Flow** → Connect UI to API services per specifications
 
 ### Progressive Implementation Pattern
@@ -424,7 +425,7 @@ Build functionality incrementally based on design outputs:
 
 **Implementation Progression**:
 
-1. **Foundation**: Next.js setup with TypeScript and shadcn/ui
+1. **Foundation**: Next.js setup with TypeScript and Salt DS
 2. **Services**: API integrations with proper caching and error handling
 3. **UI Components**: Visual implementation matching design specifications
 4. **Integration**: Complete user workflow with all features connected
@@ -447,15 +448,15 @@ Build functionality incrementally based on design outputs:
 
 ### API Integration Issues
 
-- Verify Reddit API OAuth credentials are properly configured
-- Check OpenAI API key setup and quota limits
-- Implement proper error handling per reddit-api-expert specifications
+- Verify GitHub API authentication (optional for public repos)
+- Check npm API endpoint availability and rate limits
+- Implement proper error handling per github-api-expert specifications
 - Test caching mechanisms work correctly
 
 ### UI Component Implementation Problems
 
 - Re-read ui-designer specifications for exact visual requirements
-- Verify shadcn-expert component selections are installed correctly
+- Verify salt-ds-expert component selections are installed correctly
 - Check responsive breakpoints match design specifications
 - Ensure color scheme follows design system exactly
 

@@ -2,7 +2,7 @@
 allowed-tools: Task, Read, Write, TodoWrite
 description: Design Next.js full-stack application architecture from PRD with test-first specifications
 argument-hint: <prd-file-path>
-required-agents: orchestrator, ui-designer, shadcn-expert, playwright-expert, system-architect, reddit-api-expert, chatgpt-expert
+required-agents: orchestrator, ui-designer, salt-ds-expert, playwright-expert, system-architect, github-api-expert, npm-api-expert
 agent-execution-pattern: sequential-then-parallel
 minimum-task-calls: 8
 ---
@@ -26,7 +26,7 @@ Create a comprehensive Next.js 15 application design with test-first specificati
 ```bash
 Phase 1: Task(orchestrator) - Setup only
 Phase 2: Task(ui-designer) - Wireframes
-Phase 3: Task(shadcn-expert) + Task(playwright-expert) + Task(reddit-api-expert) + Task(chatgpt-expert) - Parallel (4 calls in 1 message)
+Phase 3: Task(salt-ds-expert) + Task(playwright-expert) + Task(github-api-expert) + Task(npm-api-expert) - Parallel (4 calls in 1 message)
 Phase 4: Task(system-architect) - Integration architecture after parallel outputs
 Phase 5: Task(orchestrator) - Synthesis
 Total Task calls: 8 (minimum)
@@ -59,11 +59,11 @@ The command analyzes a Product Requirements Document to create a complete Next.j
 1. **PRD Analysis**: Extract features, user stories, and technical requirements
 2. **Test-First Design**: Write acceptance tests based on PRD user stories
 3. **Next.js 15 Architecture**: Design specifically for Next.js 15 App Router patterns with React 19
-4. **Visual Component Planning**: Select shadcn/ui components with aesthetic excellence for all UI requirements
+4. **Visual Component Planning**: Select Salt Design System components with aesthetic excellence for all UI requirements
 
 ## Enhanced Visual Design Integration
 
-The **shadcn-expert** agent now provides comprehensive visual design capabilities:
+The **salt-ds-expert** agent now provides comprehensive visual design capabilities:
 
 ### Visual Excellence Focus
 
@@ -77,11 +77,11 @@ The **shadcn-expert** agent now provides comprehensive visual design capabilitie
 **Streamlined Output Approach**: Each agent produces **1 comprehensive file** combining planning and implementation:
 
 - **ui-designer**: `design-specification.md` - Complete UI/UX design (wireframes, components, flows)
-- **shadcn-expert**: `component-implementation.md` - Component selection, design system, exact values
+- **salt-ds-expert**: `component-implementation.md` - Component selection, design system, exact values
 - **playwright-expert**: `test-specifications.md` - E2E test plan and executable test cases
 - **system-architect**: `integration-architecture.md` - Complete integration patterns, API routes, data flow
-- **reddit-api-expert**: `reddit-integration.md` - API plan with embedded TypeScript implementation
-- **chatgpt-expert**: `ai-integration.md` - OpenAI plan with embedded TypeScript implementation
+- **github-api-expert**: `github-integration.md` - GitHub API plan with embedded TypeScript implementation
+- **npm-api-expert**: `npm-integration.md` - npm API plan with embedded TypeScript implementation
 
 ### Required Concrete Deliverables (App-Specific)
 
@@ -140,7 +140,7 @@ Task(orchestrator, "Initialize project folders and create initial MANIFEST")
 # Wait for completion
 Task(ui-designer, "Create wireframes from PRD") 
 # Wait for completion
-Task(shadcn-expert, "...") + Task(playwright-expert, "...") # Parallel in single message
+Task(salt-ds-expert, "...") + Task(playwright-expert, "...") # Parallel in single message
 # Wait for both
 Task(orchestrator, "Synthesize all outputs")
 ```
@@ -175,7 +175,7 @@ You **MUST** execute Phase 3A, Phase 3B, Phase 3C, and Phase 3D in parallel usin
 #### Phase 3A: Component System Design
 
 ```bash
-- shadcn-expert → visual component selection, beautiful composition strategy, design system aesthetics (uses ui-designer output for visual design context)
+- salt-ds-expert → Salt DS component selection, beautiful composition strategy, design system aesthetics (uses ui-designer output for visual design context)
 ```
 
 #### Phase 3B: Test Specification Design
@@ -184,16 +184,16 @@ You **MUST** execute Phase 3A, Phase 3B, Phase 3C, and Phase 3D in parallel usin
 - playwright-expert → E2E test specifications (uses ui-designer output)
 ```
 
-#### Phase 3C: Reddit API Integration Design
+#### Phase 3C: GitHub API Integration Design
 
 ```bash
-- reddit-api-expert → Reddit API integration plan, rate limiting, caching strategy, authentication patterns
+- github-api-expert → GitHub API integration plan, rate limiting, caching strategy, authentication patterns for repository metrics
 ```
 
-#### Phase 3D: AI Integration Design
+#### Phase 3D: npm API Integration Design
 
 ```bash
-- chatgpt-expert → OpenAI API integration for sentiment analysis, prompt engineering, cost optimization (7-day cache)
+- npm-api-expert → npm Registry API integration for package statistics, download trends, and health metrics
 ```
 
 ### Phase 4: System Integration Architecture (Sequential - After Parallel Outputs)
@@ -213,7 +213,7 @@ You **MUST** execute Phase 3A, Phase 3B, Phase 3C, and Phase 3D in parallel usin
   • Caching layer coordination between frontend and backend
   • Error handling and retry patterns across layers
   • Session and request scoping strategies
-  • Synthesizes outputs from shadcn, playwright, reddit-api, and chatgpt experts
+  • Synthesizes outputs from salt-ds, playwright, github-api, and npm-api experts
 ```
 
 ### Phase 5: Orchestrator Synthesis & Validation (Sequential - Requires All Inputs)
@@ -260,16 +260,16 @@ You **MUST** execute Phase 3A, Phase 3B, Phase 3C, and Phase 3D in parallel usin
 
 ```
 .claude/outputs/design/agents/
-├── shadcn-expert/[project-name]-[timestamp]/
+├── salt-ds-expert/[project-name]-[timestamp]/
 │   └── component-implementation.md   # Component selection, design system, exact values
 ├── playwright-expert/[project-name]-[timestamp]/
 │   └── test-specifications.md        # E2E test plan and test cases
 ├── system-architect/[project-name]-[timestamp]/
 │   └── integration-architecture.md   # Complete integration patterns connecting all layers
-├── reddit-api-expert/[project-name]-[timestamp]/
-│   └── reddit-integration.md        # API integration plan with implementation code
-└── chatgpt-expert/[project-name]-[timestamp]/
-    └── ai-integration.md             # OpenAI integration plan with implementation code
+├── github-api-expert/[project-name]-[timestamp]/
+│   └── github-integration.md        # GitHub API integration plan with implementation code
+└── npm-api-expert/[project-name]-[timestamp]/
+    └── npm-integration.md             # npm API integration plan with implementation code
 ```
 
 **Phase 4 (Sequential - Final Synthesis)**:
@@ -302,7 +302,7 @@ The command execution pattern:
 ```bash
 # CORRECT: Five Task tool calls in single message for parallel execution
 <invoke name="Task">
-  # shadcn-expert task
+  # salt-ds-expert task
 </invoke>
 <invoke name="Task">
   # playwright-expert task
@@ -311,10 +311,10 @@ The command execution pattern:
   # system-architect task
 </invoke>
 <invoke name="Task">
-  # reddit-api-expert task
+  # github-api-expert task
 </invoke>
 <invoke name="Task">
-  # chatgpt-expert task
+  # npm-api-expert task
 </invoke>
 
 # INCORRECT: Sequential Task calls (not parallel)
@@ -332,7 +332,7 @@ ui-designer → wireframes, component hierarchy, user flows
 
 # Phase 3: Parallel (spawn simultaneously, using ui-designer output)
 # CRITICAL: Use FOUR Task tool calls in SINGLE message for true parallelism
-shadcn-expert + playwright-expert + reddit-api-expert + chatgpt-expert
+salt-ds-expert + playwright-expert + github-api-expert + npm-api-expert
 (simultaneous Task calls)
 
 # Phase 4: Sequential (requires all parallel inputs)
@@ -359,12 +359,12 @@ Task(ui-designer):
 Output to .claude/outputs/design/agents/ui-designer/[project-name]-[timestamp]/"
 ```
 
-### Phase 3A - shadcn Expert (Parallel)
+### Phase 3A - Salt DS Expert (Parallel)
 ```
-Task(shadcn-expert):
-"Read PRD at [path] and ui-designer output at [ui-path]. Select shadcn/ui components with exact hex codes.
+Task(salt-ds-expert):
+"Read PRD at [path] and ui-designer output at [ui-path]. Select Salt Design System components with exact hex codes.
 Create ONE comprehensive file combining component plan and implementation values with WCAG contrast validation.
-Output to .claude/outputs/design/agents/shadcn-expert/[project-name]-[timestamp]/"
+Output to .claude/outputs/design/agents/salt-ds-expert/[project-name]-[timestamp]/"
 ```
 
 ### Phase 3B - Playwright Expert (Parallel)
@@ -387,20 +387,20 @@ Task(system-architect):
 Output to .claude/outputs/design/agents/system-architect/[project-name]-[timestamp]/"
 ```
 
-### Phase 3D - Reddit API Expert (Parallel)
+### Phase 3D - GitHub API Expert (Parallel)
 ```
-Task(reddit-api-expert):
-"Read PRD at [path] and architecture notes. Design Reddit API integration with rate limiting, OAuth authentication, and caching strategy.
+Task(github-api-expert):
+"Read PRD at [path] and architecture notes. Design GitHub API integration for repository metrics with rate limiting and caching strategy.
 Include implementation code within the integration plan markdown file.
-Output to .claude/outputs/design/agents/reddit-api-expert/[project-name]-[timestamp]/"
+Output to .claude/outputs/design/agents/github-api-expert/[project-name]-[timestamp]/"
 ```
 
-### Phase 3E - ChatGPT Expert (Parallel)  
+### Phase 3E - npm API Expert (Parallel)
 ```
-Task(chatgpt-expert):
-"Read PRD at [path] and architecture notes. Design OpenAI API integration for sentiment analysis with 7-day caching strategy.
+Task(npm-api-expert):
+"Read PRD at [path] and architecture notes. Design npm Registry API integration for package statistics and health metrics.
 Include implementation code within the integration plan markdown file.
-Output to .claude/outputs/design/agents/chatgpt-expert/[project-name]-[timestamp]/"
+Output to .claude/outputs/design/agents/npm-api-expert/[project-name]-[timestamp]/"
 ```
 
 ### Phase 4 - Orchestrator Synthesis
@@ -415,7 +415,7 @@ DO NOT create redundant implementation plans - those exist in agent outputs. DO 
 Before proceeding, verify:
 - [ ] Are you calling Task tool 7+ times (not just once)?
 - [ ] Is orchestrator limited to setup (Phase 1) and synthesis (Phase 4) only?
-- [ ] Are Phase 3 agents (shadcn-expert + playwright-expert + system-architect + reddit-api-expert + chatgpt-expert) invoked in a SINGLE message with FIVE Task calls?
+- [ ] Are Phase 3 agents (salt-ds-expert + playwright-expert + system-architect + github-api-expert + npm-api-expert) invoked in a SINGLE message with FIVE Task calls?
 - [ ] Does each agent have a focused, specific prompt that matches the templates above?
 - [ ] Are you (Claude Code) coordinating, not delegating coordination to orchestrator?
 - [ ] Did you output your execution plan summary before starting?
@@ -432,11 +432,11 @@ The design process ensures 100% PRD coverage across all agents:
 
 - ✓ **orchestrator**: Initial PRD analysis & MANIFEST creation (initialization)
 - ✓ **ui-designer**: UI requirements & user story mapping (foundation) - 1 file output
-- ✓ **shadcn-expert**: Visual component selection, beautiful design systems & aesthetic integration - 1 file output
+- ✓ **salt-ds-expert**: Salt DS component selection, beautiful design systems & aesthetic integration - 1 file output
 - ✓ **playwright-expert**: User acceptance criteria & E2E testing - 1 file output
 - ✓ **system-architect**: Integration architecture, API routes, data flow, state management - 1 file output
-- ✓ **reddit-api-expert**: Reddit API integration, rate limiting, OAuth authentication, caching - 1 file output
-- ✓ **chatgpt-expert**: OpenAI API integration, sentiment analysis, prompt engineering (7-day cache) - 1 file output
+- ✓ **github-api-expert**: GitHub API integration for repository metrics, rate limiting, caching - 1 file output
+- ✓ **npm-api-expert**: npm Registry API integration for package statistics and health metrics - 1 file output
 - ✓ **orchestrator**: Cross-agent validation & MANIFEST finalization (synthesis) - 1 file output
 
 ## Next.js 15 Specific Design
@@ -458,7 +458,7 @@ The design is optimized for Next.js 15 App Router with React 19:
 Execution Plan Summary:
 Phase 1: Task(orchestrator) - Setup folders and initial MANIFEST only
 Phase 2: Task(ui-designer) - Create wireframes and user flows
-Phase 3: Task(shadcn-expert) + Task(playwright-expert) + Task(system-architect) + Task(reddit-api-expert) + Task(chatgpt-expert) - Parallel in single message
+Phase 3: Task(salt-ds-expert) + Task(playwright-expert) + Task(system-architect) + Task(github-api-expert) + Task(npm-api-expert) - Parallel in single message
 Phase 5: Task(orchestrator) - Synthesize outputs into implementation plan
 Total Task calls: 8
 Estimated completion: [time estimate]
@@ -472,11 +472,11 @@ A complete design includes outputs from all phases:
 
 - ✓ **Phase 1**: Project setup & initial MANIFEST (orchestrator initialization)
 - ✓ **Phase 2**: UI wireframes & component hierarchy (ui-designer)
-- ✓ **Phase 3A**: Visual shadcn/ui component selections, beautiful design systems & aesthetic customizations (shadcn-expert)
+- ✓ **Phase 3A**: Salt Design System component selections, beautiful design systems & aesthetic customizations (salt-ds-expert)
 - ✓ **Phase 3B**: E2E test specifications covering all user stories (playwright-expert)
 - ✓ **Phase 3C**: Complete system integration architecture connecting all components (system-architect)
-- ✓ **Phase 3D**: Reddit API integration plan with caching strategy (reddit-api-expert)
-- ✓ **Phase 3E**: OpenAI API integration for sentiment analysis (chatgpt-expert)
+- ✓ **Phase 3D**: GitHub API integration plan for repository metrics with caching strategy (github-api-expert)
+- ✓ **Phase 3E**: npm API integration plan for package statistics and health metrics (npm-api-expert)
 - ✓ **Phase 5**: Complete MANIFEST linking all outputs (orchestrator synthesis - 1 file)
 
 **Efficiency Gains**: Proper agent coordination enables consistent project structure and UI foundation enables parallel component and testing work
