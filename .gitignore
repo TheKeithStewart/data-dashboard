@@ -4,19 +4,19 @@ node_modules
 .pnp.js
 
 # Next.js
-web/.next/
-web/out/
-web/build
-web/dist
+app/.next/
+app/out/
+app/build
+app/dist
 
 # Production
 build
 dist
 
 # Testing
-web/test-results/
-web/playwright-report/
-web/playwright/.cache/
+app/test-results/
+app/playwright-report/
+app/playwright/.cache/
 
 # Environment variables
 .env
