@@ -27,7 +27,7 @@ This command requires design outputs from `/design-app`:
   - `shadcn-expert/` - Component selections and implementation patterns
   - `reddit-api-expert/` - API integration specifications
   - `chatgpt-expert/` - AI service integration patterns
-  - `stagehand-expert/` - Testing strategies (for reference)
+  - `playwright-expert/` - Testing strategies (for reference)
 
 ## Arguments
 
@@ -98,7 +98,7 @@ interface DesignSpecification {
 - `shadcn-expert/component-implementation.md` - Component selections and implementation patterns
 - `reddit-api-expert/reddit-integration.md` - API service architecture and caching
 - `chatgpt-expert/ai-integration.md` - Sentiment analysis and AI service integration
-- `stagehand-expert/test-specifications.md` - Testing strategies (for reference)
+- `playwright-expert/test-specifications.md` - Testing strategies (for reference)
 
 **1.2. API Integration Planning**
 
@@ -297,7 +297,7 @@ The implementation strategy prioritizes rapid delivery with design specification
 - `shadcn-expert outputs`: Component selections and implementation patterns
 - `reddit-api-expert outputs`: Service architecture and caching strategies
 - `chatgpt-expert outputs`: AI integration and cost optimization
-- `stagehand-expert outputs`: Testing strategies for future enhancement
+- `playwright-expert outputs`: Testing strategies for future enhancement
 
 ### Design Integration Points
 
@@ -377,7 +377,7 @@ The command automatically determines project setup requirements and implementati
 - **Must** follow UI designer visual specifications and component hierarchy
 - **Must** use shadcn-expert component selections and patterns
 - **Must** implement API services per reddit-api-expert and chatgpt-expert specs
-- **Should** reference stagehand-expert for testing strategies
+- **Should** reference playwright-expert for testing strategies
 
 ### Implementation Phase (Practical Approach)
 
@@ -487,7 +487,7 @@ Build functionality incrementally based on design outputs:
 
 **Automated Testing (Secondary)**:
 
-- Use stagehand-expert specifications as reference for future test implementation
+- Use playwright-expert specifications as reference for future test implementation
 - Focus on high-value, high-risk areas first
 - Add comprehensive testing after App is functional
 

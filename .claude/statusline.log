@@ -3951,3 +3951,3354 @@
 [2025-11-01 20:36:36] Using jq for JSON parsing
 ---
 [2025-11-01 20:36:36] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=86%, cost=0.09619500000000002, cost_ph=2.70, tokens=1599119, tpm=155035.01520503368, session_pct=12
+[2025-11-01 21:23:07] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:23:07] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 2918656,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:23:07] Using jq for JSON parsing
+---
+[2025-11-01 21:23:07] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:23:07] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 2918957,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:23:07] Using jq for JSON parsing
+---
+[2025-11-01 21:23:07] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:23:07] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 2918999,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:23:07] Using jq for JSON parsing
+---
+[2025-11-01 21:23:07] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:23:07] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 2919301,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:23:07] Using jq for JSON parsing
+---
+[2025-11-01 21:23:07] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=86%, cost=0.09619500000000002, cost_ph=0.12, tokens=1817318, tpm=32256.074688943976, session_pct=27
+[2025-11-01 21:23:07] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=86%, cost=0.09619500000000002, cost_ph=0.12, tokens=1817318, tpm=32256.074688943976, session_pct=27
+[2025-11-01 21:23:12] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:23:12] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 2924228,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:23:12] Using jq for JSON parsing
+---
+[2025-11-01 21:23:13] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:23:13] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 2924529,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:23:13] Using jq for JSON parsing
+---
+[2025-11-01 21:23:13] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=86%, cost=0.09619500000000002, cost_ph=0.12, tokens=1878885, tpm=33043.54223597769, session_pct=27
+[2025-11-01 21:23:14] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:23:14] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 2926343,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:23:14] Using jq for JSON parsing
+---
+[2025-11-01 21:23:15] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:23:15] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 2926645,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:23:15] Using jq for JSON parsing
+---
+[2025-11-01 21:23:15] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=86%, cost=0.09619500000000002, cost_ph=0.12, tokens=1878885, tpm=33043.54223597769, session_pct=27
+[2025-11-01 21:23:34] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:23:34] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 2945637,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:23:34] Using jq for JSON parsing
+---
+[2025-11-01 21:23:34] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:23:34] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 2945939,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:23:34] Using jq for JSON parsing
+---
+[2025-11-01 21:23:34] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=86%, cost=0.09619500000000002, cost_ph=0.12, tokens=1943640, tpm=34044.80418422281, session_pct=27
+[2025-11-01 21:25:40] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:25:40] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 3072174,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:25:40] Using jq for JSON parsing
+---
+[2025-11-01 21:25:41] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:25:41] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 3072476,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:25:41] Using jq for JSON parsing
+---
+[2025-11-01 21:25:41] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=86%, cost=0.09619500000000002, cost_ph=0.11, tokens=2653384, tpm=44953.168559021506, session_pct=28
+[2025-11-01 21:26:10] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:26:10] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 3101744,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:26:10] Using jq for JSON parsing
+---
+[2025-11-01 21:26:10] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:26:10] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 3102051,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:26:10] Using jq for JSON parsing
+---
+[2025-11-01 21:26:10] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=86%, cost=0.09619500000000002, cost_ph=0.11, tokens=2811784, tpm=47134.20618776177, session_pct=28
+[2025-11-01 21:26:21] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:26:21] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 3112658,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:26:21] Using jq for JSON parsing
+---
+[2025-11-01 21:26:21] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:26:21] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 3112960,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:26:21] Using jq for JSON parsing
+---
+[2025-11-01 21:26:21] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=86%, cost=0.09619500000000002, cost_ph=0.11, tokens=2891809, tpm=48198.27600335677, session_pct=28
+[2025-11-01 21:26:25] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:26:25] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 3117355,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:26:25] Using jq for JSON parsing
+---
+[2025-11-01 21:26:26] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:26:26] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 3117656,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:26:26] Using jq for JSON parsing
+---
+[2025-11-01 21:26:26] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=86%, cost=0.09619500000000002, cost_ph=0.11, tokens=2972395, tpm=49448.546740855505, session_pct=28
+[2025-11-01 21:27:23] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:23] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 3174473,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:23] Using jq for JSON parsing
+---
+[2025-11-01 21:27:23] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:23] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09619500000000002,
+    "total_duration_ms": 3174865,
+    "total_api_duration_ms": 127975,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:23] Using jq for JSON parsing
+---
+[2025-11-01 21:27:24] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:24] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09933000000000002,
+    "total_duration_ms": 3175748,
+    "total_api_duration_ms": 132860,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:24] Using jq for JSON parsing
+---
+[2025-11-01 21:27:24] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=100%, cost=0.09933000000000002, cost_ph=0.11, tokens=3411286, tpm=55845.30080429481, session_pct=29
+[2025-11-01 21:27:30] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:30] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09933000000000002,
+    "total_duration_ms": 3181509,
+    "total_api_duration_ms": 132860,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:30] Using jq for JSON parsing
+---
+[2025-11-01 21:27:30] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:30] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09933000000000002,
+    "total_duration_ms": 3181765,
+    "total_api_duration_ms": 132860,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:30] Using jq for JSON parsing
+---
+[2025-11-01 21:27:30] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:30] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09933000000000002,
+    "total_duration_ms": 3182375,
+    "total_api_duration_ms": 132860,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:30] Using jq for JSON parsing
+---
+[2025-11-01 21:27:31] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:31] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09933000000000002,
+    "total_duration_ms": 3182750,
+    "total_api_duration_ms": 132860,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:31] Using jq for JSON parsing
+---
+[2025-11-01 21:27:31] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:31] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09933000000000002,
+    "total_duration_ms": 3183226,
+    "total_api_duration_ms": 132860,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:31] Using jq for JSON parsing
+---
+[2025-11-01 21:27:32] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:32] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09933000000000002,
+    "total_duration_ms": 3183620,
+    "total_api_duration_ms": 132860,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:32] Using jq for JSON parsing
+---
+[2025-11-01 21:27:32] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:32] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.09933000000000002,
+    "total_duration_ms": 3184169,
+    "total_api_duration_ms": 132860,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:32] Using jq for JSON parsing
+---
+[2025-11-01 21:27:33] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:33] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.10837500000000001,
+    "total_duration_ms": 3184639,
+    "total_api_duration_ms": 141521,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:33] Using jq for JSON parsing
+---
+[2025-11-01 21:27:33] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=85%, cost=0.10837500000000001, cost_ph=0.12, tokens=3442267, tpm=56244.461975979495, session_pct=29
+[2025-11-01 21:27:38] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:38] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.10986000000000001,
+    "total_duration_ms": 3190142,
+    "total_api_duration_ms": 146834,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:38] Using jq for JSON parsing
+---
+[2025-11-01 21:27:38] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:38] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.10986000000000001,
+    "total_duration_ms": 3190214,
+    "total_api_duration_ms": 146834,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:38] Using jq for JSON parsing
+---
+[2025-11-01 21:27:38] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:38] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.10986000000000001,
+    "total_duration_ms": 3190264,
+    "total_api_duration_ms": 146834,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:38] Using jq for JSON parsing
+---
+[2025-11-01 21:27:38] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=85%, cost=0.10986000000000001, cost_ph=0.12, tokens=3584104, tpm=58424.68219052512, session_pct=29
+[2025-11-01 21:27:49] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:49] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.10986000000000001,
+    "total_duration_ms": 3201196,
+    "total_api_duration_ms": 146834,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:49] Using jq for JSON parsing
+---
+[2025-11-01 21:27:50] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:50] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.10986000000000001,
+    "total_duration_ms": 3201570,
+    "total_api_duration_ms": 146834,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:50] Using jq for JSON parsing
+---
+[2025-11-01 21:27:50] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:50] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.11806500000000002,
+    "total_duration_ms": 3202304,
+    "total_api_duration_ms": 158757,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:50] Using jq for JSON parsing
+---
+[2025-11-01 21:27:50] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=71%, cost=0.11806500000000002, cost_ph=0.13, tokens=3726572, tpm=60565.13910968609, session_pct=29
+[2025-11-01 21:27:56] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:56] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.11806500000000002,
+    "total_duration_ms": 3207909,
+    "total_api_duration_ms": 158757,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:56] Using jq for JSON parsing
+---
+[2025-11-01 21:27:56] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:27:56] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.11806500000000002,
+    "total_duration_ms": 3208380,
+    "total_api_duration_ms": 158757,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:27:56] Using jq for JSON parsing
+---
+[2025-11-01 21:27:56] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=71%, cost=0.11806500000000002, cost_ph=0.13, tokens=3785625, tpm=61413.29460779714, session_pct=29
+[2025-11-01 21:28:01] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:01] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.12898500000000002,
+    "total_duration_ms": 3213008,
+    "total_api_duration_ms": 169419,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:01] Using jq for JSON parsing
+---
+[2025-11-01 21:28:01] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=71%, cost=0.12898500000000002, cost_ph=0.14, tokens=3785625, tpm=61413.29460779714, session_pct=29
+[2025-11-01 21:28:07] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:07] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.12898500000000002,
+    "total_duration_ms": 3218789,
+    "total_api_duration_ms": 169419,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:07] Using jq for JSON parsing
+---
+[2025-11-01 21:28:07] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:07] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.12898500000000002,
+    "total_duration_ms": 3218978,
+    "total_api_duration_ms": 169419,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:07] Using jq for JSON parsing
+---
+[2025-11-01 21:28:07] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=71%, cost=0.12898500000000002, cost_ph=0.14, tokens=3845375, tpm=62199.63028931735, session_pct=29
+[2025-11-01 21:28:10] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:10] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.12898500000000002,
+    "total_duration_ms": 3222155,
+    "total_api_duration_ms": 169419,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:10] Using jq for JSON parsing
+---
+[2025-11-01 21:28:10] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=71%, cost=0.12898500000000002, cost_ph=0.14, tokens=3845375, tpm=62199.63028931735, session_pct=29
+[2025-11-01 21:28:13] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:13] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.12898500000000002,
+    "total_duration_ms": 3225226,
+    "total_api_duration_ms": 169419,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:13] Using jq for JSON parsing
+---
+[2025-11-01 21:28:13] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=71%, cost=0.12898500000000002, cost_ph=0.14, tokens=3845375, tpm=62199.63028931735, session_pct=29
+[2025-11-01 21:28:17] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:17] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.12898500000000002,
+    "total_duration_ms": 3229264,
+    "total_api_duration_ms": 169419,
+    "total_lines_added": 321,
+    "total_lines_removed": 0
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:17] Using jq for JSON parsing
+---
+[2025-11-01 21:28:17] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=71%, cost=0.12898500000000002, cost_ph=0.14, tokens=3845375, tpm=62199.63028931735, session_pct=29
+[2025-11-01 21:28:21] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:21] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.15186000000000002,
+    "total_duration_ms": 3233262,
+    "total_api_duration_ms": 189534,
+    "total_lines_added": 324,
+    "total_lines_removed": 3
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:21] Using jq for JSON parsing
+---
+[2025-11-01 21:28:21] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=71%, cost=0.15186000000000002, cost_ph=0.17, tokens=3845375, tpm=62199.63028931735, session_pct=29
+[2025-11-01 21:28:25] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:25] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.15186000000000002,
+    "total_duration_ms": 3236791,
+    "total_api_duration_ms": 189534,
+    "total_lines_added": 324,
+    "total_lines_removed": 3
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:25] Using jq for JSON parsing
+---
+[2025-11-01 21:28:25] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=71%, cost=0.15186000000000002, cost_ph=0.17, tokens=3907595, tpm=62900.837208703364, session_pct=29
+[2025-11-01 21:28:30] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:30] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.15186000000000002,
+    "total_duration_ms": 3242233,
+    "total_api_duration_ms": 189534,
+    "total_lines_added": 324,
+    "total_lines_removed": 3
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:30] Using jq for JSON parsing
+---
+[2025-11-01 21:28:30] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=71%, cost=0.15186000000000002, cost_ph=0.17, tokens=3907595, tpm=62900.837208703364, session_pct=29
+[2025-11-01 21:28:33] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:33] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.15186000000000002,
+    "total_duration_ms": 3245204,
+    "total_api_duration_ms": 189534,
+    "total_lines_added": 324,
+    "total_lines_removed": 3
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:33] Using jq for JSON parsing
+---
+[2025-11-01 21:28:33] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=71%, cost=0.15186000000000002, cost_ph=0.17, tokens=3907595, tpm=62900.837208703364, session_pct=29
+[2025-11-01 21:28:35] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:35] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.15186000000000002,
+    "total_duration_ms": 3247116,
+    "total_api_duration_ms": 189534,
+    "total_lines_added": 324,
+    "total_lines_removed": 3
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:35] Using jq for JSON parsing
+---
+[2025-11-01 21:28:35] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=71%, cost=0.15186000000000002, cost_ph=0.17, tokens=3907595, tpm=62900.837208703364, session_pct=29
+[2025-11-01 21:28:36] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:36] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.15186000000000002,
+    "total_duration_ms": 3248227,
+    "total_api_duration_ms": 189534,
+    "total_lines_added": 324,
+    "total_lines_removed": 3
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:36] Using jq for JSON parsing
+---
+[2025-11-01 21:28:36] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=71%, cost=0.15186000000000002, cost_ph=0.17, tokens=3907595, tpm=62900.837208703364, session_pct=29
+[2025-11-01 21:28:38] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:38] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.16921500000000003,
+    "total_duration_ms": 3249653,
+    "total_api_duration_ms": 205554,
+    "total_lines_added": 329,
+    "total_lines_removed": 8
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:38] Using jq for JSON parsing
+---
+[2025-11-01 21:28:38] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=71%, cost=0.16921500000000003, cost_ph=0.19, tokens=3907595, tpm=62900.837208703364, session_pct=29
+[2025-11-01 21:28:42] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:42] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.16921500000000003,
+    "total_duration_ms": 3254290,
+    "total_api_duration_ms": 205554,
+    "total_lines_added": 330,
+    "total_lines_removed": 10
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:42] Using jq for JSON parsing
+---
+[2025-11-01 21:28:42] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=69%, cost=0.16921500000000003, cost_ph=0.19, tokens=3971875, tpm=63636.68164529177, session_pct=29
+[2025-11-01 21:28:48] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:48] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.16921500000000003,
+    "total_duration_ms": 3259645,
+    "total_api_duration_ms": 205554,
+    "total_lines_added": 330,
+    "total_lines_removed": 10
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:48] Using jq for JSON parsing
+---
+[2025-11-01 21:28:48] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=69%, cost=0.16921500000000003, cost_ph=0.19, tokens=3971875, tpm=63636.68164529177, session_pct=29
+[2025-11-01 21:28:50] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:50] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.16921500000000003,
+    "total_duration_ms": 3261647,
+    "total_api_duration_ms": 205554,
+    "total_lines_added": 330,
+    "total_lines_removed": 10
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:50] Using jq for JSON parsing
+---
+[2025-11-01 21:28:50] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=69%, cost=0.16921500000000003, cost_ph=0.19, tokens=3971875, tpm=63636.68164529177, session_pct=29
+[2025-11-01 21:28:52] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:52] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.16921500000000003,
+    "total_duration_ms": 3264201,
+    "total_api_duration_ms": 205554,
+    "total_lines_added": 330,
+    "total_lines_removed": 10
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:52] Using jq for JSON parsing
+---
+[2025-11-01 21:28:52] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=69%, cost=0.16921500000000003, cost_ph=0.19, tokens=3971875, tpm=63636.68164529177, session_pct=29
+[2025-11-01 21:28:56] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:56] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.16921500000000003,
+    "total_duration_ms": 3268143,
+    "total_api_duration_ms": 205554,
+    "total_lines_added": 330,
+    "total_lines_removed": 10
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:56] Using jq for JSON parsing
+---
+[2025-11-01 21:28:56] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=69%, cost=0.16921500000000003, cost_ph=0.19, tokens=3971875, tpm=63636.68164529177, session_pct=29
+[2025-11-01 21:28:58] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:28:58] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.16921500000000003,
+    "total_duration_ms": 3270302,
+    "total_api_duration_ms": 205554,
+    "total_lines_added": 330,
+    "total_lines_removed": 10
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:28:58] Using jq for JSON parsing
+---
+[2025-11-01 21:28:58] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=69%, cost=0.16921500000000003, cost_ph=0.19, tokens=3971875, tpm=63636.68164529177, session_pct=29
+[2025-11-01 21:29:01] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:01] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.16921500000000003,
+    "total_duration_ms": 3272998,
+    "total_api_duration_ms": 205554,
+    "total_lines_added": 330,
+    "total_lines_removed": 10
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:01] Using jq for JSON parsing
+---
+[2025-11-01 21:29:01] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=69%, cost=0.16921500000000003, cost_ph=0.19, tokens=3971875, tpm=63636.68164529177, session_pct=29
+[2025-11-01 21:29:04] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:04] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.16921500000000003,
+    "total_duration_ms": 3275509,
+    "total_api_duration_ms": 205554,
+    "total_lines_added": 330,
+    "total_lines_removed": 10
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:04] Using jq for JSON parsing
+---
+[2025-11-01 21:29:04] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=69%, cost=0.16921500000000003, cost_ph=0.19, tokens=3971875, tpm=63636.68164529177, session_pct=29
+[2025-11-01 21:29:07] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:07] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.16921500000000003,
+    "total_duration_ms": 3278594,
+    "total_api_duration_ms": 205554,
+    "total_lines_added": 330,
+    "total_lines_removed": 10
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:07] Using jq for JSON parsing
+---
+[2025-11-01 21:29:07] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=69%, cost=0.16921500000000003, cost_ph=0.19, tokens=3971875, tpm=63636.68164529177, session_pct=29
+[2025-11-01 21:29:09] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:09] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.16921500000000003,
+    "total_duration_ms": 3280795,
+    "total_api_duration_ms": 205554,
+    "total_lines_added": 330,
+    "total_lines_removed": 10
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:09] Using jq for JSON parsing
+---
+[2025-11-01 21:29:09] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=69%, cost=0.16921500000000003, cost_ph=0.19, tokens=3971875, tpm=63636.68164529177, session_pct=29
+[2025-11-01 21:29:13] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:13] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.16921500000000003,
+    "total_duration_ms": 3285024,
+    "total_api_duration_ms": 205554,
+    "total_lines_added": 330,
+    "total_lines_removed": 10
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:13] Using jq for JSON parsing
+---
+[2025-11-01 21:29:13] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=69%, cost=0.16921500000000003, cost_ph=0.19, tokens=3971875, tpm=63636.68164529177, session_pct=29
+[2025-11-01 21:29:16] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:16] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.16921500000000003,
+    "total_duration_ms": 3287755,
+    "total_api_duration_ms": 205554,
+    "total_lines_added": 330,
+    "total_lines_removed": 10
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:16] Using jq for JSON parsing
+---
+[2025-11-01 21:29:16] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=69%, cost=0.16921500000000003, cost_ph=0.19, tokens=3971875, tpm=63636.68164529177, session_pct=29
+[2025-11-01 21:29:20] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:20] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.16921500000000003,
+    "total_duration_ms": 3292194,
+    "total_api_duration_ms": 205554,
+    "total_lines_added": 330,
+    "total_lines_removed": 10
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:20] Using jq for JSON parsing
+---
+[2025-11-01 21:29:20] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=69%, cost=0.16921500000000003, cost_ph=0.19, tokens=3971875, tpm=63636.68164529177, session_pct=29
+[2025-11-01 21:29:23] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:23] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.16921500000000003,
+    "total_duration_ms": 3294836,
+    "total_api_duration_ms": 205554,
+    "total_lines_added": 330,
+    "total_lines_removed": 10
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:23] Using jq for JSON parsing
+---
+[2025-11-01 21:29:23] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=69%, cost=0.16921500000000003, cost_ph=0.18, tokens=3971875, tpm=63636.68164529177, session_pct=29
+[2025-11-01 21:29:24] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:24] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.16921500000000003,
+    "total_duration_ms": 3296196,
+    "total_api_duration_ms": 205554,
+    "total_lines_added": 330,
+    "total_lines_removed": 10
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:24] Using jq for JSON parsing
+---
+[2025-11-01 21:29:24] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=69%, cost=0.16921500000000003, cost_ph=0.18, tokens=3971875, tpm=63636.68164529177, session_pct=29
+[2025-11-01 21:29:26] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:26] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.16921500000000003,
+    "total_duration_ms": 3297730,
+    "total_api_duration_ms": 205554,
+    "total_lines_added": 330,
+    "total_lines_removed": 10
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:26] Using jq for JSON parsing
+---
+[2025-11-01 21:29:26] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=69%, cost=0.16921500000000003, cost_ph=0.18, tokens=3971875, tpm=63636.68164529177, session_pct=29
+[2025-11-01 21:29:27] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:27] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.22668000000000005,
+    "total_duration_ms": 3299298,
+    "total_api_duration_ms": 254719,
+    "total_lines_added": 331,
+    "total_lines_removed": 11
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:27] Using jq for JSON parsing
+---
+[2025-11-01 21:29:27] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=69%, cost=0.22668000000000005, cost_ph=0.25, tokens=3971875, tpm=63636.68164529177, session_pct=29
+[2025-11-01 21:29:35] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:35] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.22668000000000005,
+    "total_duration_ms": 3307330,
+    "total_api_duration_ms": 254719,
+    "total_lines_added": 348,
+    "total_lines_removed": 28
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:35] Using jq for JSON parsing
+---
+[2025-11-01 21:29:35] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=68%, cost=0.22668000000000005, cost_ph=0.25, tokens=4044191, tpm=63890.585430664454, session_pct=29
+[2025-11-01 21:29:39] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:39] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.22668000000000005,
+    "total_duration_ms": 3311160,
+    "total_api_duration_ms": 254719,
+    "total_lines_added": 348,
+    "total_lines_removed": 28
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:39] Using jq for JSON parsing
+---
+[2025-11-01 21:29:39] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=68%, cost=0.22668000000000005, cost_ph=0.25, tokens=4044191, tpm=63890.585430664454, session_pct=29
+[2025-11-01 21:29:42] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:42] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.22668000000000005,
+    "total_duration_ms": 3313514,
+    "total_api_duration_ms": 254719,
+    "total_lines_added": 348,
+    "total_lines_removed": 28
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:42] Using jq for JSON parsing
+---
+[2025-11-01 21:29:42] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=68%, cost=0.22668000000000005, cost_ph=0.25, tokens=4044191, tpm=63890.585430664454, session_pct=29
+[2025-11-01 21:29:43] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:43] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.22668000000000005,
+    "total_duration_ms": 3315323,
+    "total_api_duration_ms": 254719,
+    "total_lines_added": 348,
+    "total_lines_removed": 28
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:43] Using jq for JSON parsing
+---
+[2025-11-01 21:29:43] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=68%, cost=0.22668000000000005, cost_ph=0.25, tokens=4044191, tpm=63890.585430664454, session_pct=29
+[2025-11-01 21:29:46] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:46] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.24220500000000006,
+    "total_duration_ms": 3317935,
+    "total_api_duration_ms": 268984,
+    "total_lines_added": 351,
+    "total_lines_removed": 31
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:46] Using jq for JSON parsing
+---
+[2025-11-01 21:29:46] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=68%, cost=0.24220500000000006, cost_ph=0.26, tokens=4044191, tpm=63890.585430664454, session_pct=29
+[2025-11-01 21:29:50] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:50] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.24220500000000006,
+    "total_duration_ms": 3321667,
+    "total_api_duration_ms": 268984,
+    "total_lines_added": 351,
+    "total_lines_removed": 31
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:50] Using jq for JSON parsing
+---
+[2025-11-01 21:29:50] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:50] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.24220500000000006,
+    "total_duration_ms": 3321950,
+    "total_api_duration_ms": 268984,
+    "total_lines_added": 351,
+    "total_lines_removed": 31
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:50] Using jq for JSON parsing
+---
+[2025-11-01 21:29:50] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=64%, cost=0.24220500000000006, cost_ph=0.26, tokens=4118266, tpm=64816.33933574101, session_pct=29
+[2025-11-01 21:29:55] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:55] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.24220500000000006,
+    "total_duration_ms": 3327210,
+    "total_api_duration_ms": 268984,
+    "total_lines_added": 351,
+    "total_lines_removed": 31
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:55] Using jq for JSON parsing
+---
+[2025-11-01 21:29:55] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=64%, cost=0.24220500000000006, cost_ph=0.26, tokens=4118266, tpm=64816.33933574101, session_pct=29
+[2025-11-01 21:29:57] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:57] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.24220500000000006,
+    "total_duration_ms": 3328522,
+    "total_api_duration_ms": 268984,
+    "total_lines_added": 351,
+    "total_lines_removed": 31
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:57] Using jq for JSON parsing
+---
+[2025-11-01 21:29:57] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:29:57] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.25357500000000005,
+    "total_duration_ms": 3329332,
+    "total_api_duration_ms": 280081,
+    "total_lines_added": 351,
+    "total_lines_removed": 31
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:29:57] Using jq for JSON parsing
+---
+[2025-11-01 21:29:57] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=64%, cost=0.25357500000000005, cost_ph=0.27, tokens=4118266, tpm=64816.33933574101, session_pct=29
+[2025-11-01 21:30:01] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:30:01] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.25357500000000005,
+    "total_duration_ms": 3332810,
+    "total_api_duration_ms": 280081,
+    "total_lines_added": 351,
+    "total_lines_removed": 31
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:30:01] Using jq for JSON parsing
+---
+[2025-11-01 21:30:01] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:30:01] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.25357500000000005,
+    "total_duration_ms": 3333364,
+    "total_api_duration_ms": 280081,
+    "total_lines_added": 351,
+    "total_lines_removed": 31
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:30:01] Using jq for JSON parsing
+---
+[2025-11-01 21:30:01] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=63%, cost=0.25357500000000005, cost_ph=0.27, tokens=4193232, tpm=65803.61070731176, session_pct=30
+[2025-11-01 21:30:05] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:30:05] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.25357500000000005,
+    "total_duration_ms": 3336487,
+    "total_api_duration_ms": 280081,
+    "total_lines_added": 351,
+    "total_lines_removed": 31
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:30:05] Using jq for JSON parsing
+---
+[2025-11-01 21:30:05] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:30:05] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.26214000000000004,
+    "total_duration_ms": 3337065,
+    "total_api_duration_ms": 287499,
+    "total_lines_added": 351,
+    "total_lines_removed": 31
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:30:05] Using jq for JSON parsing
+---
+[2025-11-01 21:30:05] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=63%, cost=0.26214000000000004, cost_ph=0.28, tokens=4193232, tpm=65803.61070731176, session_pct=30
+[2025-11-01 21:30:09] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:30:09] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.26214000000000004,
+    "total_duration_ms": 3340953,
+    "total_api_duration_ms": 287499,
+    "total_lines_added": 351,
+    "total_lines_removed": 31
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:30:09] Using jq for JSON parsing
+---
+[2025-11-01 21:30:09] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=63%, cost=0.26214000000000004, cost_ph=0.28, tokens=4269219, tpm=66853.64229785796, session_pct=30
+[2025-11-01 21:30:14] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:30:14] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.27159000000000005,
+    "total_duration_ms": 3345719,
+    "total_api_duration_ms": 295956,
+    "total_lines_added": 354,
+    "total_lines_removed": 34
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:30:14] Using jq for JSON parsing
+---
+[2025-11-01 21:30:14] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=63%, cost=0.27159000000000005, cost_ph=0.29, tokens=4269219, tpm=66853.64229785796, session_pct=30
+[2025-11-01 21:30:17] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:30:17] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.27159000000000005,
+    "total_duration_ms": 3349286,
+    "total_api_duration_ms": 295956,
+    "total_lines_added": 354,
+    "total_lines_removed": 34
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:30:17] Using jq for JSON parsing
+---
+[2025-11-01 21:30:18] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:30:18] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.27159000000000005,
+    "total_duration_ms": 3350035,
+    "total_api_duration_ms": 295956,
+    "total_lines_added": 354,
+    "total_lines_removed": 34
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:30:18] Using jq for JSON parsing
+---
+[2025-11-01 21:30:18] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=63%, cost=0.27159000000000005, cost_ph=0.29, tokens=4346135, tpm=67910.428520869, session_pct=30
+[2025-11-01 21:30:23] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:30:23] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.27159000000000005,
+    "total_duration_ms": 3355122,
+    "total_api_duration_ms": 295956,
+    "total_lines_added": 354,
+    "total_lines_removed": 34
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:30:23] Using jq for JSON parsing
+---
+[2025-11-01 21:30:23] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=63%, cost=0.27159000000000005, cost_ph=0.29, tokens=4346135, tpm=67910.428520869, session_pct=30
+[2025-11-01 21:31:29] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:31:29] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.33682500000000004,
+    "total_duration_ms": 3421437,
+    "total_api_duration_ms": 370825,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:31:29] Using jq for JSON parsing
+---
+[2025-11-01 21:31:29] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=63%, cost=0.33682500000000004, cost_ph=0.35, tokens=4346135, tpm=67910.428520869, session_pct=30
+[2025-11-01 21:31:33] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:31:33] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.33682500000000004,
+    "total_duration_ms": 3425042,
+    "total_api_duration_ms": 370825,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:31:33] Using jq for JSON parsing
+---
+[2025-11-01 21:31:33] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=62%, cost=0.33682500000000004, cost_ph=0.35, tokens=4432641, tpm=67922.09191856248, session_pct=30
+[2025-11-01 21:31:39] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:31:39] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.34399500000000005,
+    "total_duration_ms": 3430861,
+    "total_api_duration_ms": 379955,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:31:39] Using jq for JSON parsing
+---
+[2025-11-01 21:31:39] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=62%, cost=0.34399500000000005, cost_ph=0.36, tokens=4432641, tpm=67922.09191856248, session_pct=30
+[2025-11-01 21:31:42] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:31:42] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.34399500000000005,
+    "total_duration_ms": 3433716,
+    "total_api_duration_ms": 379955,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:31:42] Using jq for JSON parsing
+---
+[2025-11-01 21:31:42] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=57%, cost=0.34399500000000005, cost_ph=0.36, tokens=4519673, tpm=69102.63783750175, session_pct=30
+[2025-11-01 21:31:55] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:31:55] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.35383500000000007,
+    "total_duration_ms": 3446708,
+    "total_api_duration_ms": 395740,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:31:55] Using jq for JSON parsing
+---
+[2025-11-01 21:31:55] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=57%, cost=0.35383500000000007, cost_ph=0.37, tokens=4519673, tpm=69102.63783750175, session_pct=30
+[2025-11-01 21:38:52] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:38:52] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.35383500000000007,
+    "total_duration_ms": 3863496,
+    "total_api_duration_ms": 395740,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:38:52] Using jq for JSON parsing
+---
+[2025-11-01 21:38:52] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:38:52] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.35383500000000007,
+    "total_duration_ms": 3863797,
+    "total_api_duration_ms": 395740,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:38:52] Using jq for JSON parsing
+---
+[2025-11-01 21:38:52] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=57%, cost=0.35383500000000007, cost_ph=0.33, tokens=5028521, tpm=69870.24812622955, session_pct=32
+[2025-11-01 21:39:00] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:00] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.35383500000000007,
+    "total_duration_ms": 3871943,
+    "total_api_duration_ms": 395740,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:00] Using jq for JSON parsing
+---
+[2025-11-01 21:39:00] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:00] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.35383500000000007,
+    "total_duration_ms": 3872244,
+    "total_api_duration_ms": 395740,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:00] Using jq for JSON parsing
+---
+[2025-11-01 21:39:00] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=57%, cost=0.35383500000000007, cost_ph=0.33, tokens=5028521, tpm=69870.24812622955, session_pct=33
+[2025-11-01 21:39:08] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:08] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.35383500000000007,
+    "total_duration_ms": 3879949,
+    "total_api_duration_ms": 395740,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:08] Using jq for JSON parsing
+---
+[2025-11-01 21:39:08] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=100%, cost=0.35383500000000007, cost_ph=0.33, tokens=5114768, tpm=70216.85843900089, session_pct=33
+[2025-11-01 21:39:10] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:10] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.35383500000000007,
+    "total_duration_ms": 3882136,
+    "total_api_duration_ms": 395740,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:10] Using jq for JSON parsing
+---
+[2025-11-01 21:39:11] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:11] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.35704500000000006,
+    "total_duration_ms": 3882550,
+    "total_api_duration_ms": 404424,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:11] Using jq for JSON parsing
+---
+[2025-11-01 21:39:11] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=100%, cost=0.35704500000000006, cost_ph=0.33, tokens=5114768, tpm=70216.85843900089, session_pct=33
+[2025-11-01 21:39:15] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:15] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.35704500000000006,
+    "total_duration_ms": 3886775,
+    "total_api_duration_ms": 404424,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:15] Using jq for JSON parsing
+---
+[2025-11-01 21:39:15] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:15] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.35704500000000006,
+    "total_duration_ms": 3887108,
+    "total_api_duration_ms": 404424,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:15] Using jq for JSON parsing
+---
+[2025-11-01 21:39:16] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:16] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.35704500000000006,
+    "total_duration_ms": 3887957,
+    "total_api_duration_ms": 404424,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:16] Using jq for JSON parsing
+---
+[2025-11-01 21:39:17] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:17] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.35704500000000006,
+    "total_duration_ms": 3888784,
+    "total_api_duration_ms": 404424,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:17] Using jq for JSON parsing
+---
+[2025-11-01 21:39:17] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:17] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.36291000000000007,
+    "total_duration_ms": 3889371,
+    "total_api_duration_ms": 411209,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:17] Using jq for JSON parsing
+---
+[2025-11-01 21:39:17] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=57%, cost=0.36291000000000007, cost_ph=0.34, tokens=5201378, tpm=71294.51385568468, session_pct=33
+[2025-11-01 21:39:22] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:22] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.36291000000000007,
+    "total_duration_ms": 3894099,
+    "total_api_duration_ms": 411209,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:22] Using jq for JSON parsing
+---
+[2025-11-01 21:39:22] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:22] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.36291000000000007,
+    "total_duration_ms": 3894382,
+    "total_api_duration_ms": 411209,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:22] Using jq for JSON parsing
+---
+[2025-11-01 21:39:22] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=57%, cost=0.36291000000000007, cost_ph=0.34, tokens=5289469, tpm=72380.84356094764, session_pct=33
+[2025-11-01 21:39:25] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:25] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.36291000000000007,
+    "total_duration_ms": 3897049,
+    "total_api_duration_ms": 411209,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:25] Using jq for JSON parsing
+---
+[2025-11-01 21:39:25] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=57%, cost=0.36291000000000007, cost_ph=0.34, tokens=5289469, tpm=72380.84356094764, session_pct=33
+[2025-11-01 21:39:28] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:28] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.36291000000000007,
+    "total_duration_ms": 3899601,
+    "total_api_duration_ms": 411209,
+    "total_lines_added": 665,
+    "total_lines_removed": 284
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:28] Using jq for JSON parsing
+---
+[2025-11-01 21:39:28] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=57%, cost=0.36291000000000007, cost_ph=0.34, tokens=5289469, tpm=72380.84356094764, session_pct=33
+[2025-11-01 21:39:30] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:30] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.3799350000000001,
+    "total_duration_ms": 3901695,
+    "total_api_duration_ms": 423176,
+    "total_lines_added": 667,
+    "total_lines_removed": 286
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:30] Using jq for JSON parsing
+---
+[2025-11-01 21:39:30] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=57%, cost=0.3799350000000001, cost_ph=0.35, tokens=5289469, tpm=72380.84356094764, session_pct=33
+[2025-11-01 21:39:34] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:34] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.3799350000000001,
+    "total_duration_ms": 3905760,
+    "total_api_duration_ms": 423176,
+    "total_lines_added": 668,
+    "total_lines_removed": 287
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:34] Using jq for JSON parsing
+---
+[2025-11-01 21:39:34] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:34] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.3799350000000001,
+    "total_duration_ms": 3906212,
+    "total_api_duration_ms": 423176,
+    "total_lines_added": 668,
+    "total_lines_removed": 287
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:34] Using jq for JSON parsing
+---
+[2025-11-01 21:39:35] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:35] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.3819450000000001,
+    "total_duration_ms": 3906848,
+    "total_api_duration_ms": 427926,
+    "total_lines_added": 668,
+    "total_lines_removed": 287
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:35] Using jq for JSON parsing
+---
+[2025-11-01 21:39:35] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=56%, cost=0.3819450000000001, cost_ph=0.35, tokens=5379637, tpm=73419.49105122515, session_pct=33
+[2025-11-01 21:39:38] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:38] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.3819450000000001,
+    "total_duration_ms": 3910292,
+    "total_api_duration_ms": 427926,
+    "total_lines_added": 668,
+    "total_lines_removed": 287
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:38] Using jq for JSON parsing
+---
+[2025-11-01 21:39:38] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=55%, cost=0.3819450000000001, cost_ph=0.35, tokens=5469968, tpm=74575.30343259724, session_pct=33
+[2025-11-01 21:39:47] Status line triggered (cc-statusline v1.3.2)
+[2025-11-01 21:39:47] Input:
+{
+  "session_id": "b1cd1bec-3979-469c-8ceb-b5710ac917f2",
+  "transcript_path": "/Users/keithstewart/.claude/projects/-Users-keithstewart-dev-data-dashboard/b1cd1bec-3979-469c-8ceb-b5710ac917f2.jsonl",
+  "cwd": "/Users/keithstewart/dev/data-dashboard",
+  "model": {
+    "id": "claude-sonnet-4-5-20250929",
+    "display_name": "Sonnet 4.5"
+  },
+  "workspace": {
+    "current_dir": "/Users/keithstewart/dev/data-dashboard",
+    "project_dir": "/Users/keithstewart/dev/data-dashboard"
+  },
+  "version": "2.0.31",
+  "output_style": {
+    "name": "default"
+  },
+  "cost": {
+    "total_cost_usd": 0.3874950000000001,
+    "total_duration_ms": 3919382,
+    "total_api_duration_ms": 440346,
+    "total_lines_added": 668,
+    "total_lines_removed": 287
+  },
+  "exceeds_200k_tokens": false
+}
+[2025-11-01 21:39:47] Using jq for JSON parsing
+---
+[2025-11-01 21:39:47] Extracted: dir=~/dev/data-dashboard, model=Sonnet 4.5, version=, git=main, context=55%, cost=0.3874950000000001, cost_ph=0.36, tokens=5469968, tpm=74575.30343259724, session_pct=33

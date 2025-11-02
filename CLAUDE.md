@@ -33,7 +33,7 @@ This repository follows a **multi-agent design-to-implementation workflow** wher
 
 **Implementation Agents** (`.claude/agents/implementation/`):
 - `react-typescript-specialist` - React components with strict TypeScript
-- `stagehand-expert` - Executable Stagehand E2E tests
+- `playwright-expert` - Executable Playwright E2E tests
 
 **Coordination Agents** (`.claude/agents/coordination/`):
 - `orchestrator` - Coordinates multiple specialists (NOT a meta-coordinator)
@@ -72,7 +72,7 @@ Multi-phase design workflow that coordinates specialized agents:
 **Phase 2**: UI Designer creates wireframes (sequential - foundation required)
 **Phase 3**: Parallel agent execution in SINGLE message with multiple Task calls:
   - `shadcn-expert` (or `salt-ds-expert`) - Component selection
-  - `stagehand-expert` - Test specifications
+  - `playwright-expert` - Test specifications
   - `system-architect` - Integration architecture
   - `reddit-api-expert` (or `github-api-expert`/`npm-api-expert`) - API integration
   - `chatgpt-expert` (if needed) - AI integration
@@ -149,7 +149,7 @@ When `/dev:design-app` runs, it creates:
 │   └── design-specification.md
 ├── salt-ds-expert/[project-name]-[timestamp]/
 │   └── component-implementation.md
-├── stagehand-expert/[project-name]-[timestamp]/
+├── playwright-expert/[project-name]-[timestamp]/
 │   └── test-specifications.md
 ├── system-architect/[project-name]-[timestamp]/
 │   └── integration-architecture.md

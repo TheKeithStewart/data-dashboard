@@ -2,7 +2,7 @@
 allowed-tools: Task, Read, Write, TodoWrite
 description: Design Next.js full-stack application architecture from PRD with test-first specifications
 argument-hint: <prd-file-path>
-required-agents: orchestrator, ui-designer, shadcn-expert, stagehand-expert, system-architect, reddit-api-expert, chatgpt-expert
+required-agents: orchestrator, ui-designer, shadcn-expert, playwright-expert, system-architect, reddit-api-expert, chatgpt-expert
 agent-execution-pattern: sequential-then-parallel
 minimum-task-calls: 8
 ---
@@ -25,8 +25,8 @@ Create a comprehensive Next.js 15 application design with test-first specificati
 **Required Execution Pattern:**
 ```bash
 Phase 1: Task(orchestrator) - Setup only
-Phase 2: Task(ui-designer) - Wireframes  
-Phase 3: Task(shadcn-expert) + Task(stagehand-expert) + Task(reddit-api-expert) + Task(chatgpt-expert) - Parallel (4 calls in 1 message)
+Phase 2: Task(ui-designer) - Wireframes
+Phase 3: Task(shadcn-expert) + Task(playwright-expert) + Task(reddit-api-expert) + Task(chatgpt-expert) - Parallel (4 calls in 1 message)
 Phase 4: Task(system-architect) - Integration architecture after parallel outputs
 Phase 5: Task(orchestrator) - Synthesis
 Total Task calls: 8 (minimum)
@@ -78,7 +78,7 @@ The **shadcn-expert** agent now provides comprehensive visual design capabilitie
 
 - **ui-designer**: `design-specification.md` - Complete UI/UX design (wireframes, components, flows)
 - **shadcn-expert**: `component-implementation.md` - Component selection, design system, exact values
-- **stagehand-expert**: `test-specifications.md` - E2E test plan and executable test cases
+- **playwright-expert**: `test-specifications.md` - E2E test plan and executable test cases
 - **system-architect**: `integration-architecture.md` - Complete integration patterns, API routes, data flow
 - **reddit-api-expert**: `reddit-integration.md` - API plan with embedded TypeScript implementation
 - **chatgpt-expert**: `ai-integration.md` - OpenAI plan with embedded TypeScript implementation
@@ -131,7 +131,7 @@ Task(orchestrator, "Initialize project then coordinate ui-designer agent...")
 ### ❌ **WRONG - Sequential Phase 3 execution:**
 ```bash
 Task(shadcn-expert, "...")  # Wait for completion
-Task(stagehand-expert, "...") # Then execute - NOT parallel
+Task(playwright-expert, "...") # Then execute - NOT parallel
 ```
 
 ### ✅ **CORRECT - Separate agent invocations:**
@@ -140,7 +140,7 @@ Task(orchestrator, "Initialize project folders and create initial MANIFEST")
 # Wait for completion
 Task(ui-designer, "Create wireframes from PRD") 
 # Wait for completion
-Task(shadcn-expert, "...") + Task(stagehand-expert, "...") # Parallel in single message
+Task(shadcn-expert, "...") + Task(playwright-expert, "...") # Parallel in single message
 # Wait for both
 Task(orchestrator, "Synthesize all outputs")
 ```
@@ -181,7 +181,7 @@ You **MUST** execute Phase 3A, Phase 3B, Phase 3C, and Phase 3D in parallel usin
 #### Phase 3B: Test Specification Design
 
 ```bash
-- stagehand-expert → E2E test specifications (uses ui-designer output)
+- playwright-expert → E2E test specifications (uses ui-designer output)
 ```
 
 #### Phase 3C: Reddit API Integration Design
@@ -213,7 +213,7 @@ You **MUST** execute Phase 3A, Phase 3B, Phase 3C, and Phase 3D in parallel usin
   • Caching layer coordination between frontend and backend
   • Error handling and retry patterns across layers
   • Session and request scoping strategies
-  • Synthesizes outputs from shadcn, stagehand, reddit-api, and chatgpt experts
+  • Synthesizes outputs from shadcn, playwright, reddit-api, and chatgpt experts
 ```
 
 ### Phase 5: Orchestrator Synthesis & Validation (Sequential - Requires All Inputs)
@@ -262,7 +262,7 @@ You **MUST** execute Phase 3A, Phase 3B, Phase 3C, and Phase 3D in parallel usin
 .claude/outputs/design/agents/
 ├── shadcn-expert/[project-name]-[timestamp]/
 │   └── component-implementation.md   # Component selection, design system, exact values
-├── stagehand-expert/[project-name]-[timestamp]/
+├── playwright-expert/[project-name]-[timestamp]/
 │   └── test-specifications.md        # E2E test plan and test cases
 ├── system-architect/[project-name]-[timestamp]/
 │   └── integration-architecture.md   # Complete integration patterns connecting all layers
@@ -287,7 +287,7 @@ The command execution pattern:
 
 - **Phase 1**: YOU invoke orchestrator for initialization with project setup and TodoWrite tracking
 - **Phase 2**: YOU invoke ui-designer for sequential UI design (1 file output)
-- **Phase 3**: YOU spawn all five agents in parallel (each produces 1 file output)
+- **Phase 3**: YOU spawn all four agents in parallel (each produces 1 file output)
 - **Phase 5**: YOU invoke orchestrator for final synthesis (1 MANIFEST.md file only)
 - **Agent Coordination**: YOU use **multiple Task tool calls in single message** to spawn agents simultaneously
 - **Progress Tracking**: YOU maintain individual TodoWrite entries for each agent's progress
@@ -305,7 +305,7 @@ The command execution pattern:
   # shadcn-expert task
 </invoke>
 <invoke name="Task">
-  # stagehand-expert task
+  # playwright-expert task
 </invoke>
 <invoke name="Task">
   # system-architect task
@@ -332,7 +332,7 @@ ui-designer → wireframes, component hierarchy, user flows
 
 # Phase 3: Parallel (spawn simultaneously, using ui-designer output)
 # CRITICAL: Use FOUR Task tool calls in SINGLE message for true parallelism
-shadcn-expert + stagehand-expert + reddit-api-expert + chatgpt-expert
+shadcn-expert + playwright-expert + reddit-api-expert + chatgpt-expert
 (simultaneous Task calls)
 
 # Phase 4: Sequential (requires all parallel inputs)
@@ -367,11 +367,11 @@ Create ONE comprehensive file combining component plan and implementation values
 Output to .claude/outputs/design/agents/shadcn-expert/[project-name]-[timestamp]/"
 ```
 
-### Phase 3B - Stagehand Expert (Parallel)  
+### Phase 3B - Playwright Expert (Parallel)
 ```
-Task(stagehand-expert):
+Task(playwright-expert):
 "Read PRD at [path] and ui-designer output at [ui-path]. Create E2E test specifications.
-Output to .claude/outputs/design/agents/stagehand-expert/[project-name]-[timestamp]/"
+Output to .claude/outputs/design/agents/playwright-expert/[project-name]-[timestamp]/"
 ```
 
 ### Phase 3C - System Architect (Parallel)
@@ -415,7 +415,7 @@ DO NOT create redundant implementation plans - those exist in agent outputs. DO 
 Before proceeding, verify:
 - [ ] Are you calling Task tool 7+ times (not just once)?
 - [ ] Is orchestrator limited to setup (Phase 1) and synthesis (Phase 4) only?
-- [ ] Are Phase 3 agents (shadcn-expert + stagehand-expert + system-architect + reddit-api-expert + chatgpt-expert) invoked in a SINGLE message with FIVE Task calls?
+- [ ] Are Phase 3 agents (shadcn-expert + playwright-expert + system-architect + reddit-api-expert + chatgpt-expert) invoked in a SINGLE message with FIVE Task calls?
 - [ ] Does each agent have a focused, specific prompt that matches the templates above?
 - [ ] Are you (Claude Code) coordinating, not delegating coordination to orchestrator?
 - [ ] Did you output your execution plan summary before starting?
@@ -433,7 +433,7 @@ The design process ensures 100% PRD coverage across all agents:
 - ✓ **orchestrator**: Initial PRD analysis & MANIFEST creation (initialization)
 - ✓ **ui-designer**: UI requirements & user story mapping (foundation) - 1 file output
 - ✓ **shadcn-expert**: Visual component selection, beautiful design systems & aesthetic integration - 1 file output
-- ✓ **stagehand-expert**: User acceptance criteria & E2E testing - 1 file output
+- ✓ **playwright-expert**: User acceptance criteria & E2E testing - 1 file output
 - ✓ **system-architect**: Integration architecture, API routes, data flow, state management - 1 file output
 - ✓ **reddit-api-expert**: Reddit API integration, rate limiting, OAuth authentication, caching - 1 file output
 - ✓ **chatgpt-expert**: OpenAI API integration, sentiment analysis, prompt engineering (7-day cache) - 1 file output
@@ -458,7 +458,7 @@ The design is optimized for Next.js 15 App Router with React 19:
 Execution Plan Summary:
 Phase 1: Task(orchestrator) - Setup folders and initial MANIFEST only
 Phase 2: Task(ui-designer) - Create wireframes and user flows
-Phase 3: Task(shadcn-expert) + Task(stagehand-expert) + Task(system-architect) + Task(reddit-api-expert) + Task(chatgpt-expert) - Parallel in single message
+Phase 3: Task(shadcn-expert) + Task(playwright-expert) + Task(system-architect) + Task(reddit-api-expert) + Task(chatgpt-expert) - Parallel in single message
 Phase 5: Task(orchestrator) - Synthesize outputs into implementation plan
 Total Task calls: 8
 Estimated completion: [time estimate]
@@ -473,7 +473,7 @@ A complete design includes outputs from all phases:
 - ✓ **Phase 1**: Project setup & initial MANIFEST (orchestrator initialization)
 - ✓ **Phase 2**: UI wireframes & component hierarchy (ui-designer)
 - ✓ **Phase 3A**: Visual shadcn/ui component selections, beautiful design systems & aesthetic customizations (shadcn-expert)
-- ✓ **Phase 3B**: E2E test specifications covering all user stories (stagehand-expert)
+- ✓ **Phase 3B**: E2E test specifications covering all user stories (playwright-expert)
 - ✓ **Phase 3C**: Complete system integration architecture connecting all components (system-architect)
 - ✓ **Phase 3D**: Reddit API integration plan with caching strategy (reddit-api-expert)
 - ✓ **Phase 3E**: OpenAI API integration for sentiment analysis (chatgpt-expert)

@@ -46,10 +46,10 @@ These agents are already available and suitable for the dashboard builder projec
 - **Usage**: Create comprehensive tests for TDD workflow
 - **Status**: ✅ Ready
 
-### 7. **stagehand-expert** (Implementation)
-- **Location**: `.claude/agents/implementation/stagehand-expert.md`
-- **Purpose**: Executable Stagehand test files for TDD
-- **Usage**: Alternative E2E testing approach
+### 7. **playwright-expert** (Implementation)
+- **Location**: `.claude/agents/implementation/playwright-expert.md`
+- **Purpose**: Executable Playwright test files for TDD
+- **Usage**: E2E testing implementation
 - **Status**: ✅ Ready
 
 ### 8. **orchestrator** (Coordination)
@@ -269,7 +269,7 @@ The existing skills are project-specific (ClaudeCode Sentiment Monitor). New ver
 14. ✅ Use existing **nextjs-expert** for Next.js patterns
 
 ### Phase 4: Testing (Week 5)
-15. ✅ Use existing **playwright-expert** or **stagehand-expert** for E2E tests
+15. ✅ Use existing **playwright-expert** for E2E tests
 
 ---
 
@@ -339,7 +339,7 @@ frontend-components (skill), backend-api (skill), database-schema (skill)
     ↓
 react-typescript-specialist, nextjs-expert
     ↓
-playwright-expert / stagehand-expert
+playwright-expert
 ```
 
 ---
@@ -353,7 +353,6 @@ playwright-expert / stagehand-expert
 - nextjs-expert
 - react-typescript-specialist
 - playwright-expert
-- stagehand-expert
 - orchestrator
 
 ### Need to Create (6 agents)
