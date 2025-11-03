@@ -10,44 +10,47 @@ jobs:
     outputs:
       preview-url: ${{ steps.get-url.outputs.url }}
     steps:
-      - name: Wait for Vercel Deployment
+      - name: Wait for Vercel Deployment Comment
         uses: actions/github-script@v7
         id: get-url
         with:
           script: |
-            const maxAttempts = 30;
-            const delay = 10000; // 10 seconds
+            const maxAttempts = 60;
+            const delay = 5000; // 5 seconds
 
             for (let attempt = 0; attempt < maxAttempts; attempt++) {
-              const { data: deployments } = await github.rest.repos.listDeployments({
+              // Get PR comments
+              const { data: comments } = await github.rest.issues.listComments({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                ref: context.payload.pull_request.head.ref,
-                per_page: 1
+                issue_number: context.payload.pull_request.number,
+                per_page: 100
               });
 
-              if (deployments.length > 0) {
-                const deployment = deployments[0];
-                const { data: statuses } = await github.rest.repos.listDeploymentStatuses({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  deployment_id: deployment.id,
-                  per_page: 1
-                });
+              // Find Vercel bot comment with deployment URL
+              const vercelComment = comments.find(comment =>
+                comment.user.login === 'vercel[bot]' &&
+                comment.body.includes('Successfully deployed to the following URLs:')
+              );
 
-                if (statuses.length > 0 && statuses[0].state === 'success') {
-                  const url = statuses[0].environment_url;
-                  console.log(`Found deployment URL: ${url}`);
+              if (vercelComment) {
+                // Extract preview URL from comment
+                // Format: [data-dashboard-{hash}-thekeithstewarts-projects.vercel.app](https://data-dashboard-{hash}-thekeithstewarts-projects.vercel.app)
+                const urlMatch = vercelComment.body.match(/https:\/\/data-dashboard-[a-z0-9]+-thekeithstewarts-projects\.vercel\.app/);
+
+                if (urlMatch) {
+                  const url = urlMatch[0];
+                  console.log(`Found Vercel preview URL: ${url}`);
                   core.setOutput('url', url);
                   return;
                 }
               }
 
-              console.log(`Attempt ${attempt + 1}/${maxAttempts}: Deployment not ready yet, waiting...`);
+              console.log(`Attempt ${attempt + 1}/${maxAttempts}: Waiting for Vercel deployment comment...`);
               await new Promise(resolve => setTimeout(resolve, delay));
             }
 
-            core.setFailed('Deployment did not complete within the timeout period');
+            core.setFailed('Could not find Vercel deployment URL within timeout period');
 
   e2e-tests:
     needs: get-deployment-url
