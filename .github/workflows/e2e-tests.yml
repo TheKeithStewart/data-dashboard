@@ -5,22 +5,56 @@ on:
     types: [opened, synchronize, reopened]
 
 jobs:
-  wait-for-vercel:
+  get-deployment-url:
     runs-on: ubuntu-latest
     outputs:
-      preview-url: ${{ steps.wait-for-vercel.outputs.url }}
+      preview-url: ${{ steps.get-url.outputs.url }}
     steps:
-      - name: Wait for Vercel Preview Deployment
-        id: wait-for-vercel
-        uses: patrickedqvist/wait-for-vercel-preview@v1.3.1
+      - name: Wait for Vercel Deployment
+        uses: actions/github-script@v7
+        id: get-url
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          max_timeout: 300
-          check_interval: 10
+          script: |
+            const maxAttempts = 30;
+            const delay = 10000; // 10 seconds
+
+            for (let attempt = 0; attempt < maxAttempts; attempt++) {
+              const { data: deployments } = await github.rest.repos.listDeployments({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                ref: context.payload.pull_request.head.ref,
+                per_page: 1
+              });
+
+              if (deployments.length > 0) {
+                const deployment = deployments[0];
+                const { data: statuses } = await github.rest.repos.listDeploymentStatuses({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  deployment_id: deployment.id,
+                  per_page: 1
+                });
+
+                if (statuses.length > 0 && statuses[0].state === 'success') {
+                  const url = statuses[0].environment_url;
+                  console.log(`Found deployment URL: ${url}`);
+                  core.setOutput('url', url);
+                  return;
+                }
+              }
+
+              console.log(`Attempt ${attempt + 1}/${maxAttempts}: Deployment not ready yet, waiting...`);
+              await new Promise(resolve => setTimeout(resolve, delay));
+            }
+
+            core.setFailed('Deployment did not complete within the timeout period');
 
   e2e-tests:
-    needs: wait-for-vercel
+    needs: get-deployment-url
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./app
     strategy:
       matrix:
         browser: [chromium, firefox, webkit]
@@ -33,6 +67,7 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
+          cache-dependency-path: './app/package-lock.json'
 
       - name: Install dependencies
         run: npm ci
@@ -43,14 +78,14 @@ jobs:
       - name: Run E2E Tests
         run: npm test -- --project=${{ matrix.browser }}
         env:
-          PLAYWRIGHT_TEST_BASE_URL: ${{ needs.wait-for-vercel.outputs.preview-url }}
+          PLAYWRIGHT_TEST_BASE_URL: ${{ needs.get-deployment-url.outputs.preview-url }}
 
       - name: Upload test results
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: playwright-report-${{ matrix.browser }}
-          path: playwright-report/
+          path: app/playwright-report/
           retention-days: 7
 
       - name: Upload test screenshots on failure
@@ -58,5 +93,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: playwright-screenshots-${{ matrix.browser }}
-          path: test-results/
+          path: app/test-results/
           retention-days: 7
