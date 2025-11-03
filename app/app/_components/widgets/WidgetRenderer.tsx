@@ -12,9 +12,11 @@ import GitHubMetricsWidget from './GitHubMetricsWidget';
 import GitHubIssuesWidget from './GitHubIssuesWidget';
 import GitHubPRsWidget from './GitHubPRsWidget';
 import GitHubContributorsWidget from './GitHubContributorsWidget';
+import GitHubReleasesWidget from './GitHubReleasesWidget';
 import NpmDownloadsWidget from './NpmDownloadsWidget';
 import NpmQualityWidget from './NpmQualityWidget';
 import NpmVersionsWidget from './NpmVersionsWidget';
+import NpmDependenciesWidget from './NpmDependenciesWidget';
 
 interface WidgetRendererProps {
   widget: Widget;
@@ -38,6 +40,9 @@ export default function WidgetRenderer({ widget }: WidgetRendererProps) {
     case 'github-contributors':
       return <GitHubContributorsWidget config={widget.config as { owner: string; repo: string }} />;
 
+    case 'github-releases':
+      return <GitHubReleasesWidget config={widget.config as { owner: string; repo: string }} />;
+
     case 'npm-downloads':
       return <NpmDownloadsWidget config={widget.config as { packageName: string }} />;
 
@@ -47,9 +52,10 @@ export default function WidgetRenderer({ widget }: WidgetRendererProps) {
     case 'npm-versions':
       return <NpmVersionsWidget config={widget.config as { packageName: string }} />;
 
-    // Placeholder for other widget types
-    case 'github-releases':
     case 'npm-dependencies':
+      return <NpmDependenciesWidget config={widget.config as { packageName: string }} />;
+
+    // Placeholder for complex cross-source widgets
     case 'comparison':
     case 'activity-heatmap':
       return (
