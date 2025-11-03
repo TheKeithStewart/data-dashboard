@@ -17,9 +17,10 @@ import { useHydratedDashboardStore } from '@/lib/stores/dashboard-store';
 import { getWidgetCategories } from '@/lib/registry/widget-registry';
 import { Button } from '@salt-ds/core';
 import { AddIcon, ArrowLeftIcon, DeleteIcon, SettingsIcon } from '@salt-ds/icons';
-import type { WidgetType } from '@/lib/types/dashboard';
+import type { WidgetType, Widget } from '@/lib/types/dashboard';
 import dynamic from 'next/dynamic';
 import WidgetRenderer from '@/app/_components/widgets/WidgetRenderer';
+import WidgetConfigModal from '@/app/_components/WidgetConfigModal';
 
 // Dynamically import ReactGridLayout to avoid SSR issues
 const GridLayout = dynamic(() => import('react-grid-layout').then((mod) => mod.Responsive), {
@@ -37,11 +38,13 @@ export default function DashboardViewPage() {
     loading,
     addWidget,
     removeWidget,
+    updateWidget,
     updateWidgetPosition,
   } = useHydratedDashboardStore();
 
   const [showAddWidget, setShowAddWidget] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState<string>('github');
+  const [editingWidget, setEditingWidget] = useState<Widget | null>(null);
 
   const dashboard = dashboards.find((d) => d.id === dashboardId);
   const widgetCategories = getWidgetCategories();
@@ -94,6 +97,11 @@ export default function DashboardViewPage() {
     if (confirm('Are you sure you want to remove this widget?')) {
       removeWidget(dashboardId, widgetId);
     }
+  };
+
+  // Handle widget config save
+  const handleSaveConfig = (widgetId: string, config: Record<string, unknown>) => {
+    updateWidget(dashboardId, widgetId, { config });
   };
 
   // Handle layout change from react-grid-layout
@@ -272,9 +280,7 @@ export default function DashboardViewPage() {
                   <div className="flex gap-2">
                     <button
                       className="text-gray-400 hover:text-gray-600"
-                      onClick={() => {
-                        /* TODO: Open settings */
-                      }}
+                      onClick={() => setEditingWidget(widget)}
                     >
                       <SettingsIcon />
                     </button>
@@ -294,6 +300,16 @@ export default function DashboardViewPage() {
           </GridLayout>
         )}
       </div>
+
+      {/* Widget Configuration Modal */}
+      {editingWidget && (
+        <WidgetConfigModal
+          widget={editingWidget}
+          isOpen={!!editingWidget}
+          onClose={() => setEditingWidget(null)}
+          onSave={handleSaveConfig}
+        />
+      )}
     </div>
   );
 }
