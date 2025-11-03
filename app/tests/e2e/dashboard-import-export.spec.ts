@@ -26,6 +26,16 @@ test.describe('Dashboard Import/Export', () => {
     tempDir = fs.mkdtempSync(path.join(os.tmpdir(), 'dashboard-test-'));
   });
 
+  // Helper function to create a dashboard
+  async function createDashboard(page: any, name: string) {
+    await page.getByRole('button', { name: /Create New Dashboard/i }).first().click();
+    const createForm = page.locator('.bg-white.rounded-lg.shadow-sm.border').filter({ hasText: 'Create Dashboard' });
+    await createForm.getByPlaceholder('Enter dashboard name...').fill(name);
+    await createForm.getByRole('button', { name: 'Create' }).first().click();
+    // Wait for redirect to dashboard view
+    await page.waitForURL(/\/dashboards\/dashboard-\d+/);
+  }
+
   test.afterEach(async () => {
     // Clean up temp directory
     if (tempDir && fs.existsSync(tempDir)) {
@@ -37,9 +47,7 @@ test.describe('Dashboard Import/Export', () => {
     await page.goto('/dashboards');
 
     // Create a dashboard first
-    await page.getByRole('button', { name: /Create New Dashboard/i }).first().click();
-    await page.getByPlaceholder('Enter dashboard name...').fill('Test Dashboard');
-    await page.getByRole('button', { name: 'Create' }).click();
+    await createDashboard(page, 'Test Dashboard');
 
     // Go back to list
     await page.goto('/dashboards');
@@ -52,9 +60,7 @@ test.describe('Dashboard Import/Export', () => {
     await page.goto('/dashboards');
 
     // Create at least one dashboard to show header buttons
-    await page.getByRole('button', { name: /Create New Dashboard/i }).first().click();
-    await page.getByPlaceholder('Enter dashboard name...').fill('Test');
-    await page.getByRole('button', { name: 'Create' }).click();
+    await createDashboard(page, 'Test');
     await page.goto('/dashboards');
 
     // Header buttons should be visible
@@ -69,9 +75,7 @@ test.describe('Dashboard Import/Export', () => {
     await page.goto('/dashboards');
 
     // Create a dashboard
-    await page.getByRole('button', { name: /Create New Dashboard/i }).first().click();
-    await page.getByPlaceholder('Enter dashboard name...').fill('Export Test Dashboard');
-    await page.getByRole('button', { name: 'Create' }).click();
+    await createDashboard(page, 'Export Test Dashboard');
 
     // Go back to list
     await page.goto('/dashboards');
@@ -108,9 +112,7 @@ test.describe('Dashboard Import/Export', () => {
 
     // Create multiple dashboards
     for (let i = 1; i <= 2; i++) {
-      await page.getByRole('button', { name: /Create New Dashboard/i }).first().click();
-      await page.getByPlaceholder('Enter dashboard name...').fill(`Dashboard ${i}`);
-      await page.getByRole('button', { name: 'Create' }).click();
+      await createDashboard(page, `Dashboard ${i}`);
       await page.goto('/dashboards');
     }
 
@@ -300,9 +302,7 @@ test.describe('Dashboard Import/Export', () => {
     await page.goto('/dashboards');
 
     // Create original dashboard
-    await page.getByRole('button', { name: /Create New Dashboard/i }).first().click();
-    await page.getByPlaceholder('Enter dashboard name...').fill('Original');
-    await page.getByRole('button', { name: 'Create' }).click();
+    await createDashboard(page, 'Original');
 
     // Export it
     const downloadPromise = page.waitForEvent('download');

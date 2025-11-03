@@ -20,6 +20,16 @@ test.describe('Dashboard CRUD Operations', () => {
     await page.reload();
   });
 
+  // Helper function to create a dashboard
+  async function createDashboard(page: any, name: string) {
+    await page.getByRole('button', { name: /Create New Dashboard/i }).first().click();
+    const createForm = page.locator('.bg-white.rounded-lg.shadow-sm.border').filter({ hasText: 'Create Dashboard' });
+    await createForm.getByPlaceholder('Enter dashboard name...').fill(name);
+    await createForm.getByRole('button', { name: 'Create' }).first().click();
+    // Wait for redirect to dashboard view
+    await page.waitForURL(/\/dashboards\/dashboard-\d+/);
+  }
+
   test('should show empty state on first visit', async ({ page }) => {
     await page.goto('/dashboards');
 
@@ -29,24 +39,19 @@ test.describe('Dashboard CRUD Operations', () => {
     // Check for empty state description
     await expect(page.getByText('Create your first dashboard from scratch or use a template')).toBeVisible();
 
-    // Check for create button
-    await expect(page.getByRole('button', { name: /Create Dashboard/i })).toBeVisible();
+    // Check for create button (in empty state)
+    const emptyState = page.locator('.bg-white.rounded-lg.shadow-sm.border').filter({ hasText: 'No dashboards yet' });
+    await expect(emptyState.getByRole('button', { name: /Create Dashboard/i })).toBeVisible();
 
-    // Check for templates button
-    await expect(page.getByRole('button', { name: /Browse Templates/i }).first()).toBeVisible();
+    // Check for templates button (in empty state)
+    await expect(emptyState.getByRole('button', { name: /Browse Templates/i })).toBeVisible();
   });
 
   test('should create a new dashboard', async ({ page }) => {
     await page.goto('/dashboards');
 
-    // Click create button
-    await page.getByRole('button', { name: /Create New Dashboard/i }).first().click();
-
-    // Fill in dashboard name
-    await page.getByPlaceholder('Enter dashboard name...').fill('Test Dashboard');
-
-    // Submit form
-    await page.getByRole('button', { name: 'Create', exact: true }).click();
+    // Create dashboard using helper
+    await createDashboard(page, 'Test Dashboard');
 
     // Should redirect to dashboard view
     await expect(page).toHaveURL(/\/dashboards\/dashboard-\d+/);
@@ -81,9 +86,7 @@ test.describe('Dashboard CRUD Operations', () => {
     await page.goto('/dashboards');
 
     // Create a dashboard first
-    await page.getByRole('button', { name: /Create New Dashboard/i }).first().click();
-    await page.getByPlaceholder('Enter dashboard name...').fill('Original Name');
-    await page.getByRole('button', { name: 'Create', exact: true }).click();
+    await createDashboard(page, 'Original Name');
 
     // Go back to list
     await page.goto('/dashboards');
@@ -109,9 +112,7 @@ test.describe('Dashboard CRUD Operations', () => {
     await page.goto('/dashboards');
 
     // Create a dashboard first
-    await page.getByRole('button', { name: /Create New Dashboard/i }).first().click();
-    await page.getByPlaceholder('Enter dashboard name...').fill('Original Name');
-    await page.getByRole('button', { name: 'Create', exact: true }).click();
+    await createDashboard(page, 'Original Name');
 
     // Go back to list
     await page.goto('/dashboards');
@@ -133,9 +134,7 @@ test.describe('Dashboard CRUD Operations', () => {
     await page.goto('/dashboards');
 
     // Create a dashboard first
-    await page.getByRole('button', { name: /Create New Dashboard/i }).first().click();
-    await page.getByPlaceholder('Enter dashboard name...').fill('Original Dashboard');
-    await page.getByRole('button', { name: 'Create', exact: true }).click();
+    await createDashboard(page, 'Original Dashboard');
 
     // Go back to list
     await page.goto('/dashboards');
@@ -162,9 +161,7 @@ test.describe('Dashboard CRUD Operations', () => {
     await page.goto('/dashboards');
 
     // Create a dashboard first
-    await page.getByRole('button', { name: /Create New Dashboard/i }).first().click();
-    await page.getByPlaceholder('Enter dashboard name...').fill('Dashboard To Delete');
-    await page.getByRole('button', { name: 'Create', exact: true }).click();
+    await createDashboard(page, 'Dashboard To Delete');
 
     // Go back to list
     await page.goto('/dashboards');
@@ -186,9 +183,7 @@ test.describe('Dashboard CRUD Operations', () => {
     await page.goto('/dashboards');
 
     // Create a dashboard
-    await page.getByRole('button', { name: /Create New Dashboard/i }).first().click();
-    await page.getByPlaceholder('Enter dashboard name...').fill('Test Dashboard');
-    await page.getByRole('button', { name: 'Create', exact: true }).click();
+    await createDashboard(page, 'Test Dashboard');
 
     // Go back to list
     await page.goto('/dashboards');
@@ -204,9 +199,7 @@ test.describe('Dashboard CRUD Operations', () => {
     await page.goto('/dashboards');
 
     // Create a dashboard
-    await page.getByRole('button', { name: /Create New Dashboard/i }).first().click();
-    await page.getByPlaceholder('Enter dashboard name...').fill('Test Dashboard');
-    await page.getByRole('button', { name: 'Create', exact: true }).click();
+    await createDashboard(page, 'Test Dashboard');
 
     // Go back to list
     await page.goto('/dashboards');
@@ -223,9 +216,7 @@ test.describe('Dashboard CRUD Operations', () => {
 
     // Create multiple dashboards
     for (let i = 1; i <= 3; i++) {
-      await page.getByRole('button', { name: /Create New Dashboard/i }).first().click();
-      await page.getByPlaceholder('Enter dashboard name...').fill(`Dashboard ${i}`);
-      await page.getByRole('button', { name: 'Create', exact: true }).click();
+      await createDashboard(page, `Dashboard ${i}`);
       await page.goto('/dashboards');
     }
 

@@ -17,11 +17,21 @@ test.describe('Dashboard Templates', () => {
     await page.reload();
   });
 
+  // Helper function to create a dashboard
+  async function createDashboard(page: any, name: string) {
+    await page.getByRole('button', { name: /Create New Dashboard/i }).first().click();
+    const createForm = page.locator('.bg-white.rounded-lg.shadow-sm.border').filter({ hasText: 'Create Dashboard' });
+    await createForm.getByPlaceholder('Enter dashboard name...').fill(name);
+    await createForm.getByRole('button', { name: 'Create' }).first().click();
+    // Wait for redirect to dashboard view
+    await page.waitForURL(/\/dashboards\/dashboard-\d+/);
+  }
+
   test('should show Browse Templates button', async ({ page }) => {
     await page.goto('/dashboards');
 
     // Button should be visible in empty state
-    await expect(page.getByRole('button', { name: /Browse Templates/i })).toBeVisible();
+    await expect(page.getByRole('button', { name: /Browse Templates/i }).first()).toBeVisible();
   });
 
   test('should open template browser', async ({ page }) => {
@@ -64,7 +74,7 @@ test.describe('Dashboard Templates', () => {
     const templateCard = page.locator('.border.border-gray-200.rounded-lg').first();
 
     // Should show category badge
-    await expect(templateCard.locator('.bg-blue-100.text-blue-700')).toBeVisible();
+    await expect(templateCard.locator('.bg-blue-100.text-blue-700').first()).toBeVisible();
 
     // Should show widget count
     await expect(templateCard.getByText(/\d+ widgets/)).toBeVisible();
@@ -112,15 +122,13 @@ test.describe('Dashboard Templates', () => {
     await page.goto('/dashboards');
 
     // Create a dashboard first
-    await page.getByRole('button', { name: /Create New Dashboard/i }).first().click();
-    await page.getByPlaceholder('Enter dashboard name...').fill('Test Dashboard');
-    await page.getByRole('button', { name: 'Create' }).click();
+    await createDashboard(page, 'Test Dashboard');
 
     // Go back to list
     await page.goto('/dashboards');
 
     // Browse Templates should still be visible
-    await expect(page.getByRole('button', { name: /Browse Templates/i })).toBeVisible();
+    await expect(page.getByRole('button', { name: /Browse Templates/i }).first()).toBeVisible();
   });
 
   test('should create multiple dashboards from different templates', async ({ page }) => {
