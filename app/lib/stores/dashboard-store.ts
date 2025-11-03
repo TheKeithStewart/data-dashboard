@@ -45,6 +45,10 @@ interface DashboardStore {
   // Utility Actions
   saveToPersistence: () => void;
   clearError: () => void;
+  importDashboard: (dashboard: Dashboard) => string;
+  importDashboards: (dashboards: Dashboard[]) => void;
+  duplicateDashboard: (id: string) => string;
+  clearAllData: () => void;
 }
 
 // Auto-save with debouncing (500ms delay)
@@ -293,6 +297,71 @@ export const useDashboardStore = create<DashboardStore>((set, get) => ({
 
   // Clear error
   clearError: () => set({ error: null }),
+
+  // Import single dashboard
+  importDashboard: (dashboard: Dashboard) => {
+    set((state) => {
+      const updatedDashboards = [...state.dashboards, dashboard];
+      debouncedSave(updatedDashboards);
+      return {
+        dashboards: updatedDashboards,
+        activeDashboardId: dashboard.id,
+      };
+    });
+    setStorageItem(STORAGE_KEYS.ACTIVE_DASHBOARD, dashboard.id);
+    return dashboard.id;
+  },
+
+  // Import multiple dashboards
+  importDashboards: (dashboards: Dashboard[]) => {
+    set((state) => {
+      const updatedDashboards = [...state.dashboards, ...dashboards];
+      debouncedSave(updatedDashboards);
+      return { dashboards: updatedDashboards };
+    });
+  },
+
+  // Duplicate dashboard
+  duplicateDashboard: (id: string) => {
+    const { dashboards } = get();
+    const dashboard = dashboards.find((d) => d.id === id);
+    if (!dashboard) return '';
+
+    const duplicated: Dashboard = {
+      ...dashboard,
+      id: `dashboard-${Date.now()}`,
+      name: `${dashboard.name} (Copy)`,
+      metadata: {
+        ...dashboard.metadata,
+        createdAt: new Date().toISOString(),
+        updatedAt: new Date().toISOString(),
+        lastViewed: undefined,
+      },
+      // Generate new widget IDs
+      widgets: dashboard.widgets.map((widget) => ({
+        ...widget,
+        id: `widget-${widget.type}-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`,
+      })),
+    };
+
+    set((state) => {
+      const updatedDashboards = [...state.dashboards, duplicated];
+      debouncedSave(updatedDashboards);
+      return { dashboards: updatedDashboards };
+    });
+
+    return duplicated.id;
+  },
+
+  // Clear all data
+  clearAllData: () => {
+    set({
+      dashboards: [],
+      activeDashboardId: null,
+    });
+    setStorageItem(STORAGE_KEYS.DASHBOARDS, []);
+    setStorageItem(STORAGE_KEYS.ACTIVE_DASHBOARD, null);
+  },
 }));
 
 // Export hook for hydration safety
