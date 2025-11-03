@@ -9,7 +9,12 @@
 import type { Widget } from '@/lib/types/dashboard';
 import GitHubStarsWidget from './GitHubStarsWidget';
 import GitHubMetricsWidget from './GitHubMetricsWidget';
+import GitHubIssuesWidget from './GitHubIssuesWidget';
+import GitHubPRsWidget from './GitHubPRsWidget';
+import GitHubContributorsWidget from './GitHubContributorsWidget';
 import NpmDownloadsWidget from './NpmDownloadsWidget';
+import NpmQualityWidget from './NpmQualityWidget';
+import NpmVersionsWidget from './NpmVersionsWidget';
 
 interface WidgetRendererProps {
   widget: Widget;
@@ -24,16 +29,26 @@ export default function WidgetRenderer({ widget }: WidgetRendererProps) {
     case 'github-metrics':
       return <GitHubMetricsWidget config={widget.config as { owner: string; repo: string }} />;
 
+    case 'github-issues':
+      return <GitHubIssuesWidget config={widget.config as { owner: string; repo: string }} />;
+
+    case 'github-prs':
+      return <GitHubPRsWidget config={widget.config as { owner: string; repo: string }} />;
+
+    case 'github-contributors':
+      return <GitHubContributorsWidget config={widget.config as { owner: string; repo: string }} />;
+
     case 'npm-downloads':
       return <NpmDownloadsWidget config={widget.config as { packageName: string }} />;
 
-    // Placeholder for other widget types
-    case 'github-issues':
-    case 'github-prs':
-    case 'github-contributors':
-    case 'github-releases':
-    case 'npm-versions':
     case 'npm-quality':
+      return <NpmQualityWidget config={widget.config as { packageName: string }} />;
+
+    case 'npm-versions':
+      return <NpmVersionsWidget config={widget.config as { packageName: string }} />;
+
+    // Placeholder for other widget types
+    case 'github-releases':
     case 'npm-dependencies':
     case 'comparison':
     case 'activity-heatmap':
