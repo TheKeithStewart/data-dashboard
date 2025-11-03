@@ -32,6 +32,11 @@ export default defineConfig({
     // Use PLAYWRIGHT_TEST_BASE_URL if set (for Vercel preview), otherwise localhost
     baseURL: process.env.PLAYWRIGHT_TEST_BASE_URL || 'http://localhost:3000',
 
+    // Add Vercel bypass header if secret is provided
+    extraHTTPHeaders: process.env.VERCEL_AUTOMATION_BYPASS_SECRET
+      ? { 'x-vercel-protection-bypass': process.env.VERCEL_AUTOMATION_BYPASS_SECRET }
+      : {},
+
     // Collect trace when retrying the failed test
     trace: 'on-first-retry',
 

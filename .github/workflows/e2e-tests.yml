@@ -8,16 +8,63 @@ jobs:
   wait-for-vercel:
     runs-on: ubuntu-latest
     outputs:
-      preview-url: ${{ steps.wait-for-vercel.outputs.url }}
+      preview-url: ${{ steps.get-url.outputs.url }}
     steps:
-      - name: Wait for Vercel Preview Deployment
-        id: wait-for-vercel
-        uses: patrickedqvist/wait-for-vercel-preview@v1.3.1
+      - name: Wait for Vercel Deployment and Get URL
+        uses: actions/github-script@v7
+        id: get-url
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          max_timeout: 300
-          check_interval: 10
-          vercel_password: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
+          script: |
+            const maxAttempts = 60;
+            const delay = 5000; // 5 seconds
+            const bypassSecret = '${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}';
+
+            for (let attempt = 0; attempt < maxAttempts; attempt++) {
+              // Get PR comments
+              const { data: comments } = await github.rest.issues.listComments({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.payload.pull_request.number,
+                per_page: 100
+              });
+
+              // Find Vercel bot comment
+              const vercelComment = comments.find(comment =>
+                comment.user.login === 'vercel[bot]' &&
+                comment.body.includes('Successfully deployed to the following URLs:')
+              );
+
+              if (vercelComment) {
+                // Extract preview URL
+                const urlMatch = vercelComment.body.match(/https:\/\/data-dashboard-[a-z0-9]+-thekeithstewarts-projects\.vercel\.app/);
+
+                if (urlMatch) {
+                  const url = urlMatch[0];
+                  console.log(`Found Vercel preview URL: ${url}`);
+
+                  // Test URL accessibility with bypass header
+                  const response = await fetch(url, {
+                    headers: {
+                      'x-vercel-protection-bypass': bypassSecret
+                    }
+                  });
+
+                  console.log(`URL check status: ${response.status}`);
+
+                  if (response.ok) {
+                    core.setOutput('url', url);
+                    return;
+                  } else {
+                    console.log(`URL not ready yet (status ${response.status}), retrying...`);
+                  }
+                }
+              }
+
+              console.log(`Attempt ${attempt + 1}/${maxAttempts}: Waiting for Vercel deployment...`);
+              await new Promise(resolve => setTimeout(resolve, delay));
+            }
+
+            core.setFailed('Could not find accessible Vercel deployment within timeout period');
 
   e2e-tests:
     needs: wait-for-vercel
@@ -49,6 +96,7 @@ jobs:
         run: npm test -- --project=${{ matrix.browser }}
         env:
           PLAYWRIGHT_TEST_BASE_URL: ${{ needs.wait-for-vercel.outputs.preview-url }}
+          VERCEL_AUTOMATION_BYPASS_SECRET: ${{ secrets.VERCEL_AUTOMATION_BYPASS_SECRET }}
 
       - name: Upload test results
         if: always()
